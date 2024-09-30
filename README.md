@@ -9,6 +9,7 @@
      4. [Sprint3](#S3)
      5. [Sprint4](#S4)
           1.  [Idea List](#ideaList)
+5. [Team Charter](#charter)
 
 ## Introduction<a name="introduction"></a>
 As part of our Fall 2024 Software Engineering project, we are designing a website that will be, with current planning, published online for the client we are working with.
@@ -19,6 +20,7 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 | Justin K. | 9/25/24 | 1hr | Emailed and Discussed project with Client |
 | Sean G. | 9/27/24 | 1hr 15min | Set up Github, invitied users, and set up base structure of project and ReadMe|
 | Justin K. | 9/30/24 | 45min | Emailed Client to establish his needs, along with ideas for a prototype and more details about the project.|
+| ALL | 9/30/24 | 30min | Added Team Charter to ReadMe file |
 | Null | Null | Null | Null |
 
 ## Client Details<a name="client-details"></a>
@@ -49,3 +51,55 @@ This sprint will also contain ideas like specialized styling, back end support w
 | Sean G. | Tomato Vines grow down while page scrolls | Utilizing CSS + Javascript, the idea of having a vine grow with the page as users scroll was brought up. |
 | Sean G. | Publishing site on hosting server | Learn how to host a webpage on a server, including getting a domain name, and a hosting site like AWS (Amazon Web Service). |
 | | | |
+
+## Team Charter<a name="charter"></a>
+### 1. Team Roles:
+   1. Justin K. - Project Manager
+      1. Communcation between team & client
+   3. Richard W. - Software Engineer
+   4. Sean G. - Systems Engineer
+   5. Taylor B. - Designer
+      1. Figma, webpage CSS
+### 2. Team Values:
+   1. Communication
+      1. Group members will continuously update the rest of the group regarding parts of the project they are active on, whether that be through updating this ReadMe, or through discussion in person.
+      2. Team Standups will be held after our designated class time each monday, where we discuss what everyone has worked on this week, and what we expect to see in the next week.
+   3. Teamwork
+      1. Group members will be open to helping each other at every step of the development process, nobody will be alone in their assignment.
+   5. Equal Involvement
+      1. Even when not coding, everyone should have the ability to see and be involved in the development of the website.
+### 3. Team Rules:
+   1. Attendence: All members should expect to show up each Monday to attend both class and project standups.
+### 4. Objectives:
+1. Project Objectives:
+     1. Already covered under [Description](#desc)
+2. Academic Objectives:
+     1. Business Communication with a real client.
+     2. Meeting Client needs.
+     3. Practice utilizing github outside basic uses.
+     4. Learning how to manage a domain.
+     5. Learning how to operate a service.
+3. Project Description:
+     1. Already covered under [Description](#desc)
+4. Project Requirements:
+     1. Our Client, Michael Maniatis, owns a farm named "White River Valley Farms," and needs a website built to advertise his farm produce.
+5. Risks:
+     1. Information Security: Making sure Michael's, along with our own information, is not accidentally published onto the site
+     2. Scale: Making sure the ideas we come up with, and commit to adding into this project, fit within the scope of the projects ability.
+     3. Personal Skills: Some things, especially like the domain and server hosting, are outside of our current experience.
+     4. Attention Span: Making sure all of us are able to properly focus on the project, especially as the semester moves on and classes get more involved.
+6. What is "Done" for each Sprint?:
+     1. All main goals for that sprint have been completed to a satisfactory degree between both us and the client.
+     2. All group members have reviewed and approve of the work done in the sprint.
+7. Key Players and Stakeholders:
+     1. Advisor: Matt Harp. Teaches team about development tactics and offers advice/feedback when necessary.
+     2. Client: Michael Maniatis. Owner of White River Valley Farms and recipient of completed website.
+     3. Project Manager: Justin Kroh. Focuses on communicating with client and guiding development accordingly.
+     4. System Engineer: Sean Greeley. Hosts server environment and manages GitHub repositories.
+     5. Software Engineer: Richard Walker. Writes code and focuses on website structure.
+     6. Designer: Taylor Boese. Creates graphic designs and focuses on website styling.
+     7. Feedback Group: Classmates. Software Engineering classmates will be asked for feedback regarding the website.
+8. References
+     1. None as of Current
+
+     

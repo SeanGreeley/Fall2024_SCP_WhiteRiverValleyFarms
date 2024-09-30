@@ -18,7 +18,8 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 |----------|----------|----------|----------|
 | Justin K. | 9/25/24 | 1hr | Emailed and Discussed project with Client |
 | Sean G. | 9/27/24 | 1hr 15min | Set up Github, invitied users, and set up base structure of project and ReadMe|
-| Null | Null | Null |Null|
+| Justin K. | 9/30/24 | 45min | Emailed Client to establish his needs, along with ideas for a prototype and more details about the project.|
+| Null | Null | Null | Null |
 
 ## Client Details<a name="client-details"></a>
 | Date | Details | Done? |

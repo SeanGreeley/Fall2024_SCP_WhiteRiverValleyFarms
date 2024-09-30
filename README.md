@@ -16,7 +16,7 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 ## Time Spent Working<a name="workingTime"></a>
 | Name | Date | Time (Rounded) | Desc of Work |
 |----------|----------|----------|----------|
-| Justin K. | 9/25/24 | ---min | Emailed and Discussed project with Client |
+| Justin K. | 9/25/24 | 1hr | Emailed and Discussed project with Client |
 | Sean G. | 9/27/24 | 1hr 15min | Set up Github, invitied users, and set up base structure of project and ReadMe|
 | Null | Null | Null |Null|
 

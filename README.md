@@ -10,6 +10,9 @@
      5. [Sprint4](#S4)
           1.  [Idea List](#ideaList)
 5. [Team Charter](#charter)
+6. [User Stories](#userStories)
+7. [Risk Analysis](#riskAnalysis)
+8. [Effort Estimation](#effortEstimation)
 
 ## Introduction<a name="introduction"></a>
 As part of our Fall 2024 Software Engineering project, we are designing a website that will be, with current planning, published online for the client we are working with.
@@ -21,6 +24,7 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 | Sean G. | 9/27/24 | 1hr 15min | Set up Github, invitied users, and set up base structure of project and ReadMe|
 | Justin K. | 9/30/24 | 45min | Emailed Client to establish his needs, along with ideas for a prototype and more details about the project.|
 | ALL | 9/30/24 | 30min | Added Team Charter to ReadMe file |
+| ALL | 10/7/24 | 45min | Added User Stories, Risk Analysis, and Effort Estimate to ReadMe file.|
 | Null | Null | Null | Null |
 
 ## Client Details<a name="client-details"></a>
@@ -101,5 +105,33 @@ This sprint will also contain ideas like specialized styling, back end support w
      7. Feedback Group: Classmates. Software Engineering classmates will be asked for feedback regarding the website.
 8. References
      1. None as of Current
-
+## User Stories<a name="userStories"></a>
+| Actor | Functionality |
+|----------|----------|
+| User | Sign up for a WRVF newsletter. |
+| User | View produce and the associated prices. |
+| User | Travel between pages efficiently. | 
+| User | View a map of WRVF. |
+| User | Learn about the farmers of WRVF. |
+| | |
+## Risk Analysis<a name="riskAnalysis"></a>
+| Risk | Probability (1-10) | Severity (1-10) |
+|----------|----------|----------|
+| Breech of personal information with the mailing list. | 3/10 | 2/10 |
+| Physical address is publicly available and abused. | 2/10 | 3/10 |
+| Host server gets hacked. | 2/10 | 5/10 |
+| Defective, flawed, or buggy website tarnishes the reputation of WRVF. | 1/10 | 5/10 |
+| | | |
+## Effort Estimation<a name="effortEstimate"></a>
+| Task | Estimated Work Hours |
+|----------|----------|
+| Develop  website sketches. | 2 Hours |
+| Build Prototype in Figma | 6 Hours |
+| Sending Emails | 3-6 Hours |
+| Personal Meetings | 3-6 Hours | 
+| Set Up GitHub Repo | 6 Hours |
+| Sprint 2 | 8 Hours |
+| Sprint 3 | 8 Hours |
+| Sprint 4 | 3-6 Hours |
+| | |
      

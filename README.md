@@ -110,15 +110,15 @@ This sprint will also contain ideas like specialized styling, back end support w
 |----------|----------|
 | User | Sign up for a WRVF newsletter. |
 | User | View produce and the associated prices. |
+| User | View growing season information. |
 | User | Travel between pages efficiently. | 
-| User | View a map of WRVF. |
-| User | Learn about the farmers of WRVF. |
+| User | Learn about CSA, more specifically in the Ozarks. |
+| User | Sign up as a member of Michael's CSA. |
 | | |
 ## Risk Analysis<a name="riskAnalysis"></a>
 | Risk | Probability (1-10) | Severity (1-10) |
 |----------|----------|----------|
 | Breech of personal information with the mailing list. | 3/10 | 2/10 |
-| Physical address is publicly available and abused. | 2/10 | 3/10 |
 | Host server gets hacked. | 2/10 | 5/10 |
 | Defective, flawed, or buggy website tarnishes the reputation of WRVF. | 1/10 | 5/10 |
 | | | |

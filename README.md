@@ -28,10 +28,25 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 | ALL | 10/10/24 | 1hr 30min | Met with client and discussed about site purpose and main points to focus on. |
 
 ## Client Details<a name="client-details"></a>
-| Date | Details | Done? |
-|----------|----------|----------|
-| Null | Null | No |
-| Null | Null | No |
+### Figma Design:
+| Date Added | Details | Done? | Date Finished |
+|----------|----------|----------|----------|
+| 10/14/24 | Color Pallete | No | --- |
+| 10/14/24 | Logo | No | --- |
+| 10/14/24 | Home Page Layout | No | --- |
+| 10/14/24 | Our Produce Layout | No | --- |
+| 10/14/24 | What is CSA Layout| No | --- |
+| 10/14/24 | What is CSA Information| No | --- |
+| 10/14/24 | Join Us Template| No | --- |
+
+### Website Development
+| Date Added | Details | Done? | Date Finished |
+|----------|----------|----------|----------|
+| 10/14/24 | Home Page | No | --- |
+| 10/14/24 | Our Produce | No | --- |
+| 10/14/24 | What is CSA | No | --- |
+| 10/14/24 | Join Us | No | --- |
+| --- | --- | --- | --- |
 
 ## Description<a name="desc"></a>
 During our 8 week span, starting 9/16/24 till 11/11/24, our main goal is to utilize the Pedal method to complete a full website development track, implementing real world systems into our project.
@@ -41,7 +56,7 @@ This project has an official client through White River Valley Farms, meaning in
 2. Figma will be utilized during Sprint1 to design out a sketch of the site before development starts.
 3. React, along with CSS and Javascript will be utilized in the development of the site.
 ### Sprint 1<a name="S1"></a>
-Sprint 1 will be the overall planning phase of the main project. We will be constantly communicating with our client while we get a rough idea of their expectations for the website, including pages, functionality, styles, scale, etc. Such details will be brought to life in a prototype website designed in Figma.
+Sprint 1, started as of 10/14/24, will be the overall planning phase of the main project. We will be constantly communicating with our client while we get a rough idea of their expectations for the website, including pages, functionality, styles, scale, etc. Such details will be brought to life in a prototype website designed in Figma.
 These details will be tracked actively above in [Client Details](#client-details).
 ### Sprint 2<a name="S2"></a>
 Sprint 2 will be the basic structure of our website built around the functions defined during Sprint 1, along with updated discussions with our client. During this sprint, there won't be any connections between the different pages, nor styling, as the main point of this time is to get a basic set of pages to make sure all planned features will work with it. 

@@ -12,7 +12,7 @@
 5. [Team Charter](#charter)
 6. [User Stories](#userStories)
 7. [Risk Analysis](#riskAnalysis)
-8. [Effort Estimation](#effortEstimation)
+8. [Effort Estimation](#effortEstimate)
 
 ## Introduction<a name="introduction"></a>
 As part of our Fall 2024 Software Engineering project, we are designing a website that will be, with current planning, published online for the client we are working with.
@@ -25,7 +25,7 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 | Justin K. | 9/30/24 | 45min | Emailed Client to establish his needs, along with ideas for a prototype and more details about the project.|
 | ALL | 9/30/24 | 30min | Added Team Charter to ReadMe file |
 | ALL | 10/7/24 | 45min | Added User Stories, Risk Analysis, and Effort Estimate to ReadMe file.|
-| Null | Null | Null | Null |
+| ALL | 10/10/24 | 1hr 30min | Met with client and discussed about site purpose and main points to focus on. |
 
 ## Client Details<a name="client-details"></a>
 | Date | Details | Done? |

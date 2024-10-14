@@ -52,7 +52,7 @@ Sprint 4 is, as of current, the "Whatever else we need / want to do" section, al
 This sprint will also contain ideas like specialized styling, back end support with setting up an email form for a mailing list system, and other ideas thought up and added to the table below.
 | Name | Idea | Details |
 |----------|----------|----------|
-| Sean G. | Tomato Vines grow down while page scrolls | Utilizing CSS + Javascript, the idea of having a vine grow with the page as users scroll was brought up. |
+| Sean G. | Design a built-in admin console to allow client to edit and change items on the site in an easier way. |
 | Sean G. | Publishing site on hosting server | Learn how to host a webpage on a server, including getting a domain name, and a hosting site like AWS (Amazon Web Service). |
 | | | |
 

@@ -27,6 +27,7 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 | ALL | 10/7/24 | 45min | Added User Stories, Risk Analysis, and Effort Estimate to ReadMe file.|
 | ALL | 10/10/24 | 1hr 30min | Met with client and discussed about site purpose and main points to focus on. |
 | ALL | 10/14/24 | 1hr 45min | Beginning of Sprint 1. Getting Client Details written and beginning work on Figma. |
+| Justin K | 10/18/24 | 15min | Imported images from client into Figma prototype. |
 
 
 ## Client Details<a name="client-details"></a>

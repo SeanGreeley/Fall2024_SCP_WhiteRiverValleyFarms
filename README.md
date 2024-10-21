@@ -34,15 +34,15 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 ### Figma Design:
 | Date Added | Details | Done? | Date Finished |
 |----------|----------|----------|----------|
-| 10/14/24 | Color Pallete | No | --- |
+| 10/14/24 | Color Pallete | Yes | 10/14/24 |
 | 10/14/24 | Logo | No | --- |
 | 10/14/24 | Home Page Layout | No | --- |
-| 10/14/24 | Our Produce Layout | No | --- |
+| 10/14/24 | Our Produce Layout | Yes | 10/21/24 |
 | 10/14/24 | What is CSA Layout| No | --- |
 | 10/14/24 | What is CSA Information| No | --- |
 | 10/14/24 | Join Us Template| No | --- |
 
-### Website Development
+### Website Development:
 | Date Added | Details | Done? | Date Finished |
 |----------|----------|----------|----------|
 | 10/14/24 | Home Page | No | --- |
@@ -127,7 +127,7 @@ This sprint will also contain ideas like specialized styling, back end support w
 | Actor | Functionality |
 |----------|----------|
 | User | Sign up for a WRVF newsletter. |
-| User | View produce and the associated prices. |
+| User | View produce and the associated availability. |
 | User | View growing season information. |
 | User | Travel between pages efficiently. | 
 | User | Learn about CSA, more specifically in the Ozarks. |

@@ -29,6 +29,7 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 | ALL | 10/14/24 | 1hr 45min | Beginning of Sprint 1. Getting Client Details written and beginning work on Figma. |
 | Justin K. | 10/18/24 | 15min | Imported images from client into Figma prototype. |
 | Richard W. | 10/21/24 | 30min | Got react routes working |
+| Sean G. | 10/21/24 | 30min | Drop down shadows in figma |
 
 
 ## Client Details<a name="client-details"></a>

@@ -2,6 +2,9 @@
 1. [Introduction](#introduction)
 2. [Time Spent Working](#workingTime)
 3. [Client Details](#client-details)
+     1. [Client Discussions](#clientDis)
+     2. [Figma Design](#figmaDes)
+     3. [Website Design](#webDes)
 4. [Description](#desc)
      1. [Code & Tools](#codeTools)
      2. [Sprint1](#S1)
@@ -30,9 +33,27 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 | Justin K. | 10/18/24 | 15min | Imported images from client into Figma prototype. |
 | Richard W. | 10/21/24 | 30min | Got react routes working |
 | ALL | 10/21/24 | 3hr 30min | Worked on Figma prototype. |
+| Sean G. | 10/22/24 | 30min | Worked on Desktop version on Figma & Added Client Discussion from 10/10/2024 |
 
 
 ## Client Details<a name="client-details"></a>
+### Client Discussion:
+| Date Discussed | Details | Section Covers |
+|----------|----------|----------|
+| 10/10/24 | <span style="color: red">No Map/Location Information</span> | N/A |
+| 10/10/24 | <span style="color: red">No Flashy/Fancy Site</span> | N/A |
+| 10/10/24 | Admin Control for Client | Site Development |
+| 10/10/24 | Mailing List | "Join Us Page" |
+| 10/10/24 | Basic Biography | "Home Page" |
+| 10/10/24 | History | "Home Page" |
+| 10/10/24 | Business Email | "Home Page" |
+| 10/10/24 | Info about CSA's (Links, Desc, etc.) | "What is CSA" |
+| 10/10/24 | Farm News: (Ex: Market participation) | "Home Page" |
+| 10/10/24 | Freshness: (Cold Storage, Washing System, Avaliability) | "Home Page" |
+| 10/10/24 | Community: (Getting fresh food to community) | "Home Page" |
+| 10/10/24 | Transparency: (Showing the process, getting people to know where their food is from) | "Home Page" |
+
+
 ### Figma Design:
 | Date Added | Details | Done? | Date Finished |
 |----------|----------|----------|----------|

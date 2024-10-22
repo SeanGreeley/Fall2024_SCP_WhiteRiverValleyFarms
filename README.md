@@ -34,6 +34,7 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 | Richard W. | 10/21/24 | 30min | Got react routes working |
 | ALL | 10/21/24 | 3hr 30min | Worked on Figma prototype. |
 | Sean G. | 10/22/24 | 30min | Worked on Desktop version on Figma & Added Client Discussion from 10/10/2024 |
+| Justin K. | 10/22/24 | 1hr | Worked on Figma prototype. |
 
 
 ## Client Details<a name="client-details"></a>

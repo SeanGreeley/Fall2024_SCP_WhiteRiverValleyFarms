@@ -37,7 +37,7 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 | Date Added | Details | Done? | Date Finished |
 |----------|----------|----------|----------|
 | 10/14/24 | Color Pallete | Yes | 10/14/24 |
-| 10/14/24 | Logo | No | --- |
+| 10/14/24 | Logo | Yes | 10/21/24 |
 | 10/14/24 | Home Page Layout | No | --- |
 | 10/14/24 | Our Produce Layout | Yes | 10/21/24 |
 | 10/14/24 | What is CSA Layout| No | --- |

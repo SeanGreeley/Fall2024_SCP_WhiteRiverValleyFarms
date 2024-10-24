@@ -17,10 +17,10 @@
 7. [Risk Analysis](#riskAnalysis)
 8. [Effort Estimation](#effortEstimate)
 
-## Introduction<a name="introduction"></a>
+# Introduction<a name="introduction"></a>
 As part of our Fall 2024 Software Engineering project, we are designing a website that will be, with current planning, published online for the client we are working with.
 
-## Time Spent Working<a name="workingTime"></a>
+# Time Spent Working<a name="workingTime"></a>
 | Name | Date | Time (Rounded) | Desc of Work |
 |----------|----------|----------|----------|
 | Justin K. | 9/25/24 | 1hr | Emailed and Discussed project with Client |
@@ -36,9 +36,10 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 | Sean G. | 10/22/24 | 30min | Worked on Desktop version on Figma & Added Client Discussion from 10/10/2024 |
 | Justin K. | 10/22/24 | 1hr | Worked on Figma prototype. |
 | All | 10/22/24 | 1hr 30min | Discussion and Work regarding current Figma Design |
+| Sean G. | 10/24/24 | 10min | Quick format fix on Readme File |
 
 
-## Client Details<a name="client-details"></a>
+# Client Details<a name="client-details"></a>
 ### Client Discussion:
 | Date Discussed | Details | Section Covers |
 |----------|----------|----------|
@@ -76,21 +77,21 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 | 10/14/24 | Join Us | No | --- |
 | --- | --- | --- | --- |
 
-## Description<a name="desc"></a>
+# Description<a name="desc"></a>
 During our 8 week span, starting 9/16/24 till 11/11/24, our main goal is to utilize the Pedal method to complete a full website development track, implementing real world systems into our project.
 This project has an official client through White River Valley Farms, meaning instead of being our own clients in regard to the usefullness of the app, we will have to be working and answering with the client actively throughout the development cycle.
-### Code & Tools<a name="codeTools"></a>
+## Code & Tools<a name="codeTools"></a>
 1. We will be utilizing Github as our repository regarding all sprints of this project.
 2. Figma will be utilized during Sprint1 to design out a sketch of the site before development starts.
 3. React, along with CSS and Javascript will be utilized in the development of the site.
-### Sprint 1<a name="S1"></a>
+## Sprint 1<a name="S1"></a>
 Sprint 1, started as of 10/14/24, will be the overall planning phase of the main project. We will be constantly communicating with our client while we get a rough idea of their expectations for the website, including pages, functionality, styles, scale, etc. Such details will be brought to life in a prototype website designed in Figma.
 These details will be tracked actively above in [Client Details](#client-details).
-### Sprint 2<a name="S2"></a>
+## Sprint 2<a name="S2"></a>
 Sprint 2 will be the basic structure of our website built around the functions defined during Sprint 1, along with updated discussions with our client. During this sprint, there won't be any connections between the different pages, nor styling, as the main point of this time is to get a basic set of pages to make sure all planned features will work with it. 
-### Sprint 3<a name="S3"></a>
+## Sprint 3<a name="S3"></a>
 Sprint 3 will be when all the previously made pages, after they are reviewed and match client expectations, will be connected together. Along with this, the pages will have CSS designs from the Figma added to them, along with anything brought up during discussions with Client.
-### Sprint 4<a name="S4"></a>
+## Sprint 4<a name="S4"></a>
 Sprint 4 is, as of current, the "Whatever else we need / want to do" section, along with being where we currently plan on working towards setting up web functionality and getting the site online for the client. This is left to the last sprint because as of current, the idea of publishing is outside of our current scope, as we wish to make sure all other sprint features work before planning shipping.
 This sprint will also contain ideas like specialized styling, back end support with setting up an email form for a mailing list system, and other ideas thought up and added to the table below.
 | Name | Idea | Details |
@@ -99,56 +100,67 @@ This sprint will also contain ideas like specialized styling, back end support w
 | Sean G. | Publishing site on hosting server | Learn how to host a webpage on a server, including getting a domain name, and a hosting site like AWS (Amazon Web Service). |
 | | | |
 
-## Team Charter<a name="charter"></a>
-### 1. Team Roles:
-   1. Justin K. - Project Manager
-      1. Communcation between team & client
-   3. Richard W. - Software Engineer
-   4. Sean G. - Systems Engineer
-   5. Taylor B. - Designer
-      1. Figma, webpage CSS
-### 2. Team Values:
-   1. Communication
-      1. Group members will continuously update the rest of the group regarding parts of the project they are active on, whether that be through updating this ReadMe, or through discussion in person.
-      2. Team Standups will be held after our designated class time each monday, where we discuss what everyone has worked on this week, and what we expect to see in the next week.
-   3. Teamwork
-      1. Group members will be open to helping each other at every step of the development process, nobody will be alone in their assignment.
-   5. Equal Involvement
-      1. Even when not coding, everyone should have the ability to see and be involved in the development of the website.
-### 3. Team Rules:
-   1. Attendence: All members should expect to show up each Monday to attend both class and project standups.
-### 4. Objectives:
-1. Project Objectives:
-     1. Already covered under [Description](#desc)
-2. Academic Objectives:
-     1. Business Communication with a real client.
-     2. Meeting Client needs.
-     3. Practice utilizing github outside basic uses.
-     4. Learning how to manage a domain.
-     5. Learning how to operate a service.
-3. Project Description:
-     1. Already covered under [Description](#desc)
-4. Project Requirements:
-     1. Our Client, Michael Maniatis, owns a farm named "White River Valley Farms," and needs a website built to advertise his farm produce.
-5. Risks:
-     1. Information Security: Making sure Michael's, along with our own information, is not accidentally published onto the site
-     2. Scale: Making sure the ideas we come up with, and commit to adding into this project, fit within the scope of the projects ability.
-     3. Personal Skills: Some things, especially like the domain and server hosting, are outside of our current experience.
-     4. Attention Span: Making sure all of us are able to properly focus on the project, especially as the semester moves on and classes get more involved.
-6. What is "Done" for each Sprint?:
-     1. All main goals for that sprint have been completed to a satisfactory degree between both us and the client.
-     2. All group members have reviewed and approve of the work done in the sprint.
-7. Key Players and Stakeholders:
-     1. Advisor: Matt Harp. Teaches team about development tactics and offers advice/feedback when necessary.
-     2. Client: Michael Maniatis. Owner of White River Valley Farms and recipient of completed website.
-     3. Project Manager: Justin Kroh. Focuses on communicating with client and guiding development accordingly.
-     4. System Engineer: Sean Greeley. Hosts server environment and manages GitHub repositories.
-     5. Software Engineer: Richard Walker. Writes code and focuses on website structure.
-     6. Designer: Taylor Boese. Creates graphic designs and focuses on website styling.
-     7. Feedback Group: Classmates. Software Engineering classmates will be asked for feedback regarding the website.
-8. References
-     1. None as of Current
-## User Stories<a name="userStories"></a>
+# Team Charter<a name="charter"></a>
+## 1. Team Roles:
+1. Justin K. - Project Manager
+   1. Communcation between team & client
+2. Richard W. - Software Engineer
+3. Sean G. - Systems Engineer
+4. Taylor B. - Designer
+   1. Figma, webpage CSS
+
+## 2. Team Values:
+1. Communication
+     1. Group members will continuously update the rest of the group regarding parts of the project they are active on, whether that be through updating this ReadMe, or through discussion in person.
+     2. Team Standups will be held after our designated class time each monday, where we discuss what everyone has worked on this week, and what we expect to see in the next week.
+2. Teamwork
+     1. Group members will be open to helping each other at every step of the development process, nobody will be alone in their assignment.
+3. Equal Involvement
+     1. Even when not coding, everyone should have the ability to see and be involved in the development of the website.
+
+## 3. Team Rules:
+1. Attendence: All members should expect to show up each Monday to attend both class and project standups.
+## 4. Objectives:
+
+### 1. Project Objectives:
+* Already covered under [Description](#desc)
+  
+### 2. Academic Objectives:
+1. Business Communication with a real client.
+2. Meeting Client needs.
+3. Practice utilizing github outside basic uses.
+4. Learning how to manage a domain.
+5. Learning how to operate a service.
+   
+### 3. Project Description:
+* Already covered under [Description](#desc)
+  
+### 4. Project Requirements:
+* Our Client, Michael Maniatis, owns a farm named "White River Valley Farms," and needs a website built to advertise his farm produce.
+  
+### 5. Risks:
+1. Information Security: Making sure Michael's, along with our own information, is not accidentally published onto the site
+2. Scale: Making sure the ideas we come up with, and commit to adding into this project, fit within the scope of the projects ability.
+3. Personal Skills: Some things, especially like the domain and server hosting, are outside of our current experience.
+4. Attention Span: Making sure all of us are able to properly focus on the project, especially as the semester moves on and classes get more involved.
+   
+### 6. What is "Done" for each Sprint?:
+1. All main goals for that sprint have been completed to a satisfactory degree between both us and the client.
+2. All group members have reviewed and approve of the work done in the sprint.
+
+### 7. Key Players and Stakeholders:
+1. Advisor: Matt Harp. Teaches team about development tactics and offers advice/feedback when necessary.
+2. Client: Michael Maniatis. Owner of White River Valley Farms and recipient of completed website.
+3. Project Manager: Justin Kroh. Focuses on communicating with client and guiding development accordingly.
+4. System Engineer: Sean Greeley. Hosts server environment and manages GitHub repositories.
+5. Software Engineer: Richard Walker. Writes code and focuses on website structure.
+6. Designer: Taylor Boese. Creates graphic designs and focuses on website styling.
+7. Feedback Group: Classmates. Software Engineering classmates will be asked for feedback regarding the website.
+
+### 8. References
+* None as of Current
+  
+# User Stories<a name="userStories"></a>
 | Actor | Functionality |
 |----------|----------|
 | User | Sign up for a WRVF newsletter. |
@@ -158,14 +170,14 @@ This sprint will also contain ideas like specialized styling, back end support w
 | User | Learn about CSA, more specifically in the Ozarks. |
 | User | Sign up as a member of Michael's CSA. |
 | | |
-## Risk Analysis<a name="riskAnalysis"></a>
+# Risk Analysis<a name="riskAnalysis"></a>
 | Risk | Probability (1-10) | Severity (1-10) |
 |----------|----------|----------|
 | Breech of personal information with the mailing list. | 3/10 | 2/10 |
 | Host server gets hacked. | 2/10 | 5/10 |
 | Defective, flawed, or buggy website tarnishes the reputation of WRVF. | 1/10 | 5/10 |
 | | | |
-## Effort Estimation<a name="effortEstimate"></a>
+# Effort Estimation<a name="effortEstimate"></a>
 | Task | Estimated Work Hours |
 |----------|----------|
 | Develop  website sketches. | 2 Hours |

@@ -37,6 +37,9 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 | Justin K. | 10/22/24 | 1hr | Worked on Figma prototype. |
 | All | 10/22/24 | 1hr 30min | Discussion and Work regarding current Figma Design |
 | Sean G. | 10/24/24 | 10min | Quick format fix on Readme File |
+| Richard W. | 10/24/24 | 15min | Wrote biography for Home page |
+| Justin K. | 10/26/24 | 15min | Communicated with client via email |
+| Justin K. | 10/27/24 | 1hr 15min | Finished Join Us page in Prototype |
 
 
 # Client Details<a name="client-details"></a>
@@ -64,9 +67,9 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 | 10/14/24 | Logo | Yes | 10/21/24 |
 | 10/14/24 | Home Page Layout | No | --- |
 | 10/14/24 | Our Produce Layout | Yes | 10/21/24 |
-| 10/14/24 | What is CSA Layout| No | --- |
-| 10/14/24 | What is CSA Information| No | --- |
-| 10/14/24 | Join Us Template| No | --- |
+| 10/14/24 | What is CSA Layout| Yes | 10/22/24 |
+| 10/14/24 | What is CSA Information| Yes | 10/22/24 |
+| 10/14/24 | Join Us Template| Yes | 10/27/24 |
 
 ### Website Development:
 | Date Added | Details | Done? | Date Finished |

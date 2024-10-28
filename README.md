@@ -39,7 +39,7 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 | Sean G. | 10/24/24 | 10min | Quick format fix on Readme File |
 | Richard W. | 10/24/24 | 15min | Wrote biography for Home page |
 | Justin K. | 10/26/24 | 15min | Communicated with client via email |
-| Justin K. | 10/27/24 | 1hr 15min | Finished Join Us page in Prototype |
+| Justin K. | 10/27/24 | 2hr | Finished Join Us page in Prototype and worked on Home page |
 
 
 # Client Details<a name="client-details"></a>

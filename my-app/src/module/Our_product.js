@@ -1,6 +1,15 @@
 //import logo from './logo.svg';
 import { Link } from 'react-router-dom';
 
+function Product(title, description){
+  return(
+    <div>
+      <h1>{title}</h1>
+      <p>{description}</p>
+    </div>
+  )
+}
+
 function OurProduct() {
   return (
     <div id='root' className="App">
@@ -11,7 +20,7 @@ function OurProduct() {
         <Link to='/join'>Join Us</Link>
         <Link to='/CSA'>What is a CSA</Link>
       </nav>
-      <p>hello we are in the our product page</p>
+      <Product title='Produce Title' description='Produce Desciption'/>
     </div>
   );
 }

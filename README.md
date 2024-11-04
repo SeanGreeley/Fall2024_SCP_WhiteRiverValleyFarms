@@ -35,12 +35,14 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 | ALL | 10/21/24 | 3hr 30min | Worked on Figma prototype. |
 | Sean G. | 10/22/24 | 30min | Worked on Desktop version on Figma & Added Client Discussion from 10/10/2024 |
 | Justin K. | 10/22/24 | 1hr | Worked on Figma prototype. |
-| All | 10/22/24 | 1hr 30min | Discussion and Work regarding current Figma Design |
+| ALL | 10/22/24 | 1hr 30min | Discussion and Work regarding current Figma Design |
 | Sean G. | 10/24/24 | 10min | Quick format fix on Readme File |
 | Richard W. | 10/24/24 | 15min | Wrote biography for Home page |
 | Justin K. | 10/26/24 | 15min | Communicated with client via email |
 | Justin K. | 10/27/24 | 2hr | Finished Join Us page in Prototype and worked on Home page |
 | ALL | 10/28/24 | 2hr | Finished Figma Prototype |
+| Justin K. | 10/31/24 | 3hr | Multiple tests with React and Content-Management. |
+| ALL | 11/04/24 | 2hr | Presented site prototype to client. |
 
 
 # Client Details<a name="client-details"></a>

@@ -182,6 +182,7 @@ This sprint will also contain ideas like specialized styling, back end support w
 | Breech of personal information with the mailing list. | 3/10 | 2/10 |
 | Host server gets hacked. | 2/10 | 5/10 |
 | Defective, flawed, or buggy website tarnishes the reputation of WRVF. | 1/10 | 5/10 |
+| Development time runs out, which limits site functionality. | 5/10 | 2/10 |
 | | | |
 # Effort Estimation<a name="effortEstimate"></a>
 | Task | Estimated Work Hours |

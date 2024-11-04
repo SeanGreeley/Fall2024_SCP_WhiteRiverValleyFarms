@@ -43,6 +43,7 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 | ALL | 10/28/24 | 2hr | Finished Figma Prototype |
 | Justin K. | 10/31/24 | 3hr | Multiple tests with React and Content-Management. |
 | ALL | 11/04/24 | 2hr | Presented site prototype to client. |
+| Richard | 11/2/24 | 2hr | React website skelaton and home page text set up. |
 
 
 # Client Details<a name="client-details"></a>

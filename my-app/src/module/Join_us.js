@@ -7,8 +7,8 @@ function JoinUs() {
         <nav>
             <Link to='/'>Home</Link>  
             <Link to='/product'>Our Product</Link>
-            <Link to='/join'>Join Us</Link>
             <Link to='/CSA'>What is a CSA</Link>
+            <Link to='/join'>Join Us</Link>
         </nav>
         <p>hello we are in join us page</p>
       </div>

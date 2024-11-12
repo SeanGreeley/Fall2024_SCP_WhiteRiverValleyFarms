@@ -9,12 +9,14 @@
       "listings":  [{
         "name": "Doopy Goopy Atom II",
         "alt": "A yummy React-flavored atom.",
-        "desc": "Delicious React-flavored atoms that we pick straight from the app-dev molecule!"
+        "desc": "Delicious React-flavored atoms that we pick straight from the app-dev molecule!",
+        "enabled": true
       },
       {
         "name": "Wawa",
         "alt": "The one and only wawa",
-        "desc": "How much wa can a wawa wa if a wawa wa's the wa's?"
+        "desc": "How much wa can a wawa wa if a wawa wa's the wa's?",
+        "enabled": true
       }]
   },
   "csa-info": {

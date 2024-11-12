@@ -4,11 +4,12 @@ import Corn from '../Images/corn.png';
 import Garlic from '../Images/garlic.png'
 import Peas from '../Images/peas.png'
 import Tomato from '../Images/TomatoPlant2.png'
+import allText from '../textElements.json';
 
 function OurProduct() {
   return (
     <div id='root' className="App">
-      <h1>White River Valley Farms</h1>
+      <h1>{allText.home.title}</h1>
       <nav>
         <Link to='/'>Home</Link>  
         <Link to='/product'>Our Product</Link>

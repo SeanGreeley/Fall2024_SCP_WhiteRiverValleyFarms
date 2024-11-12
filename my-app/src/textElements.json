@@ -7,15 +7,27 @@
     },
   "produce": {
       "listings":  [{
-        "name": "Doopy Goopy Atom II",
-        "alt": "A yummy React-flavored atom.",
-        "desc": "Delicious React-flavored atoms that we pick straight from the app-dev molecule!",
+        "name": "Corn",
+        "alt": "A barrow full of ripe corn husks.",
+        "desc": "Available from X - Y",
         "enabled": true
       },
       {
-        "name": "Wawa",
-        "alt": "The one and only wawa",
-        "desc": "How much wa can a wawa wa if a wawa wa's the wa's?",
+        "name": "Garlic",
+        "alt": "A crate full of garlic knots.",
+        "desc": "Available from X - Y",
+        "enabled": true
+      },
+      {
+        "name": "Peas",
+        "alt": "A large pile of pea pods.",
+        "desc": "Available from X - Y",
+        "enabled": true
+      },
+      {
+        "name": "Cherry Tomatoes",
+        "alt": "Two bright red cherry tomatoes being held in front of a tomato plant.",
+        "desc": "Available from X - Y",
         "enabled": true
       }]
   },

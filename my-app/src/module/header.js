@@ -5,7 +5,7 @@ import NavBar from './navbar';
 function Header() {
     const styles = {
         color: colors.darkGreen,
-        backgroundColor: colors.lightGreen,
+        backgroundColor: colors.ivory,
         padding: '1em'
     };
     return (

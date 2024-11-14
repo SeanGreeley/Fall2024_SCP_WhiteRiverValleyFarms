@@ -7,16 +7,38 @@ import DefaultImage from '../Images/cropRow.png'
 import allText from '../textElements.json';
 import Header from './header';
 import Footer from './footer';
+import colors from '../colors.json'
 
 function OurProduct() {
   const allImages = [Corn, Garlic, Peas, Tomato, DefaultImage];
+  const paragraphStyles = {
+    color: colors.charcoal,
+    fontSize: '24px',
+    backgroundColor: colors.ivory,
+    padding: '0.25em',
+    fontFamily: 'Itim'
+  };
+  const headerStyles = {
+    color: colors.orange,
+    backgroundColor: colors.ivory,
+    padding: '0.25em',
+    fontSize: '4vh',
+    fontFamily: 'Elsie Swash Caps'
+  };
+  const imgStyles ={
+    width: '200px', 
+    height: '200px', 
+    objectFit: 'cover', 
+    padding: '10px',
+    backgroundColor: colors.ivory
+  }
   return (
-    <div id='root' className="App">
+    <div id='root' className="App" style={{backgroundColor:colors.ivory}}>
       <Header/>
       <div>{allText.produce.listings.map((p,idx) => p.enabled && (<div> 
-          <img src={allImages[Math.min(idx,allImages.length-1)]} style={{width: '200px', height: '200px', objectFit: 'cover', margin: '10px'}} alt={p.alt} title={p.alt}/>
-          <h2>{p.name}</h2>
-          <p>{p.desc}</p>
+          <img src={allImages[Math.min(idx,allImages.length-1)]} style={imgStyles} alt={p.alt} title={p.alt}/>
+          <h2 style={headerStyles}>{p.name}</h2>
+          <p style={paragraphStyles}>{p.desc}</p>
       </div>))}</div>
       <Footer/>
     </div>

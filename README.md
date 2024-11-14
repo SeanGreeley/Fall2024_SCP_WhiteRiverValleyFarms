@@ -43,9 +43,11 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 | ALL | 10/28/24 | 2hr | Finished Figma Prototype |
 | Justin K. | 10/31/24 | 3hr | Multiple tests with React and Content-Management. |
 | ALL | 11/04/24 | 2hr | Presented site prototype to client. |
-| Richard | 11/02/24 | 2hr | React website skeleton and home page text set up. |
+| Richard W. | 11/02/24 | 2hr | React website skeleton and home page text set up. |
 | ALL | 11/11/24 | 2hr | Finished Sprint 2. |
-
+| Justin K. | 11/12/24 | 2hr | Git Setup & Work on Sprint 3 |
+| Taylor B. | 11/12/24 | 15min | Git Setup |
+| Justin K. | 11/13/24 | 1hr | Work on Sprint 3 |
 
 # Client Details<a name="client-details"></a>
 ### Client Discussion:

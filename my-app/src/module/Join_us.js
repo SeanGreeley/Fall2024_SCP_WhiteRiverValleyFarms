@@ -31,6 +31,7 @@ function JoinUs() {
     fontFamily: 'Itim'
   };
   const form = {
+    backgroundColor: colors.ivory,
     position:"fixed",
     border: `3px solid ${colors.orange}`,
     right:"0",
@@ -40,6 +41,8 @@ function JoinUs() {
     padding: "20px",
     gridColumn: "2",
     flexGrow: "2",
+    gridTemplateColumns: "1fr auto",
+    gap: "20px"
   };
   const textStyle = {
     gridColumn: "1",
@@ -53,6 +56,17 @@ function JoinUs() {
     display: "grid",
     gridTemplateColumns: "1fr auto", /* Adjust the ratio as needed */
     gap: "20px"
+  };
+  const inputLabel = {
+    gridColumn: "1",
+    padding: "10px",
+    display: "inline-block",
+    width: "100px",
+    textAlign: "right"
+  };
+  const inputStyle = {
+    gridColumn: "2",
+    padding: "10px",
   };
     return (
         <div id='root' className="App">
@@ -76,13 +90,15 @@ function JoinUs() {
             <p style = {paragraphStyles}>{allText['join-us']['form-opening']}</p>
           </div>
           <div style = {form}>
-              <input type="email" id="email" name="email" placeholder='Email' required/><br></br>
-              <input type="text" id="fname" name="fname" placeholder='First Name' required /><br></br>
-              <input type="text" id="lname" name="lname" placeholder='Last Name' required/><br></br>
-              <input type="tel" id="number" name="number" placeholder='Phone Number' required/><br></br>
-              <input type="text" id="msg" name="msg" placeholder='Message for Michael' /><br></br>
-              <input type="submit" value="Submit" />
-              <input type="submit" value="Unsubscribe from Email List" />
+            <p style = {inputLabel}>Email: </p>
+            <p style = {inputLabel}>First Name: </p>
+              <input style = {inputStyle} type="email" id="email" name="email" placeholder='Email' required/><br></br>
+              <input style = {inputStyle} type="text" id="fname" name="fname" placeholder='First Name' required /><br></br>
+              <input style = {inputStyle} type="text" id="lname" name="lname" placeholder='Last Name' required/><br></br>
+              <input style = {inputStyle} type="tel" id="number" name="number" placeholder='Phone Number' required/><br></br>
+              <input style = {inputStyle} type="text" id="msg" name="msg" placeholder='Message for Michael' /><br></br>
+              <input style = {inputStyle} type="submit" value="Submit" />
+              <input style = {inputStyle} type="submit" value="Unsubscribe from Email List" />
           </div>
         </div>
         <Footer/>

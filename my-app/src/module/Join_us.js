@@ -31,6 +31,8 @@ function JoinUs() {
     fontFamily: 'Itim'
   };
   const form = {
+    marginTop: "3%",
+    marginRight: "8%",
     backgroundColor: colors.ivory,
     position:"fixed",
     border: `3px solid ${colors.orange}`,
@@ -58,15 +60,25 @@ function JoinUs() {
     gap: "20px"
   };
   const inputLabel = {
+    paddingLeft: "13%",
     gridColumn: "1",
-    padding: "10px",
-    display: "inline-block",
+    //display: "inline-block",
     width: "100px",
-    textAlign: "right"
+    textAlign: "left"
   };
   const inputStyle = {
+    marginBottom: "15px",
     gridColumn: "2",
     padding: "10px",
+    paddingRight: "100px",
+    textAlign: "left"    
+  };
+  const buttonStyle = {
+    padding: "7px",  
+  };
+  const spacer = {
+    margin: "20px",
+    marginBottom: "0px"
   };
     return (
         <div id='root' className="App">
@@ -90,15 +102,20 @@ function JoinUs() {
             <p style = {paragraphStyles}>{allText['join-us']['form-opening']}</p>
           </div>
           <div style = {form}>
-            <p style = {inputLabel}>Email: </p>
-            <p style = {inputLabel}>First Name: </p>
+            <div style = {spacer}>
+              <p style = {inputLabel}>Email: </p>
               <input style = {inputStyle} type="email" id="email" name="email" placeholder='Email' required/><br></br>
+              <p style = {inputLabel}>First Name: </p>
               <input style = {inputStyle} type="text" id="fname" name="fname" placeholder='First Name' required /><br></br>
+              <p style = {inputLabel}>Last Name: </p>
               <input style = {inputStyle} type="text" id="lname" name="lname" placeholder='Last Name' required/><br></br>
+              <p style = {inputLabel}>Phone Nubmer: </p>
               <input style = {inputStyle} type="tel" id="number" name="number" placeholder='Phone Number' required/><br></br>
+              <p style = {inputLabel}>Mesagge for Michael: </p>
               <input style = {inputStyle} type="text" id="msg" name="msg" placeholder='Message for Michael' /><br></br>
-              <input style = {inputStyle} type="submit" value="Submit" />
-              <input style = {inputStyle} type="submit" value="Unsubscribe from Email List" />
+              <input style = {buttonStyle} type="submit" value="Submit" />
+              <input style = {buttonStyle} type="submit" value="Unsubscribe from Email List" />
+            </div>
           </div>
         </div>
         <Footer/>

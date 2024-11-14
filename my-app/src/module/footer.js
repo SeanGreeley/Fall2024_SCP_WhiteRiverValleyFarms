@@ -5,7 +5,8 @@ function Footer() {
     const styles = {
         color: colors.ivory,
         backgroundColor: colors.darkGreen,
-        padding: '1em'
+        padding: '1em',
+        fontFamily: 'Itim'
     };
     return (
         <div>

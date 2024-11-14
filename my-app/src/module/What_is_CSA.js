@@ -3,6 +3,7 @@ import Header from './header';
 import Footer from './footer';
 import colors from '../colors.json';
 
+
 function WhatIsACSA() {
   const paragraphStyles = {
     color: colors.charcoal,
@@ -10,12 +11,16 @@ function WhatIsACSA() {
     fontSize: '24px',
     backgroundColor: colors.ivory,
     padding: '1em',
-    width: '50%',
+    width: '50vw',
+    minWidth: '300px',
+    fontFamily: 'Itim'
   };
   const headerStyles = {
     color: colors.orange,
     backgroundColor: colors.ivory,
-    padding: '1em'
+    padding: '1em',
+    fontFamily: 'Elsie Swash Caps',
+    fontSize: '6vh'
   };
   const textboxStyles = {
     display: 'flex',

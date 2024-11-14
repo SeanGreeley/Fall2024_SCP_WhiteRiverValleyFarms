@@ -4,9 +4,10 @@ import NavBar from './navbar';
 
 function Header() {
     const styles = {
-        color: colors.darkGreen,
+        color: colors.charcoal,
         backgroundColor: colors.lightGreen,
-        padding: '1em'
+        padding: '1em',
+        fontFamily: 'Jacques Francois Shadow'
     };
     return (
         <div>

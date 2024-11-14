@@ -5,7 +5,9 @@ function NavBar() {
     const styles = {
         color: colors.ivory,
         backgroundColor: colors.darkGreen,
-        padding: '0.5em'
+        padding: '0.5em',
+        fontFamily: 'Itim',
+        fontSize: '3vh'
     };
     return (
         <nav style={styles}>

@@ -37,11 +37,11 @@ function Home() {
   return (
     <div id='root' className="App">
       <Header/>
-      <div style={divStyles}>
-        <div style={textboxStyles}>
-        <h1 style={headerStyles}>{allText.home.header}</h1>
-        <p style={paragraphStyles}>{allText.home['body-1']}</p>
-        <p style={paragraphStyles}>{allText.home['body-2']}</p>
+      <div id='content' style={divStyles}>
+        <div id='textbox' style={textboxStyles}>
+          <h1 style={headerStyles}>{allText.home.header}</h1>
+          <p style={paragraphStyles}>{allText.home['body-1']}</p>
+          <p style={paragraphStyles}>{allText.home['body-2']}</p>
         </div>
         <img src={HomeScreen} style={{width:'40vw',height:'30vw', margin: '2em'}} alt="Farm image."/>
       </div>

@@ -6,7 +6,8 @@ function Footer() {
         color: colors.ivory,
         backgroundColor: colors.darkGreen,
         padding: '1em',
-        fontFamily: 'Itim'
+        fontFamily: 'Itim',
+        fontSize: '3vh'
     };
     return (
         <div>

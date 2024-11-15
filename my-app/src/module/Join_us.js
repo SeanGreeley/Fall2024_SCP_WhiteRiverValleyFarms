@@ -31,7 +31,7 @@ function JoinUs() {
     fontFamily: 'Itim'
   };
   const form = {
-    marginTop: "3%",
+    marginTop: "2.5vh",
     marginRight: "8%",
     backgroundColor: colors.ivory,
     position:"fixed",
@@ -57,13 +57,14 @@ function JoinUs() {
     fontFamily: 'Itim',
     display: "grid",
     gridTemplateColumns: "1fr auto", /* Adjust the ratio as needed */
-    gap: "20px"
+    gap: "20px",
+    paddingTop: '20vh'
   };
   const inputLabel = {
     paddingLeft: "13%",
     gridColumn: "1",
     //display: "inline-block",
-    width: "100px",
+    width: "200px",
     textAlign: "left"
   };
   const inputStyle = {
@@ -81,7 +82,7 @@ function JoinUs() {
     marginBottom: "0px"
   };
     return (
-        <div id='root' className="App">
+        <div id='root' className="App" style={{backgroundColor:colors.ivory}}>
         <Header/>
         <div style = {container}>
           <div style = {textStyle}>
@@ -109,9 +110,9 @@ function JoinUs() {
               <input style = {inputStyle} type="text" id="fname" name="fname" placeholder='First Name' required /><br></br>
               <p style = {inputLabel}>Last Name: </p>
               <input style = {inputStyle} type="text" id="lname" name="lname" placeholder='Last Name' required/><br></br>
-              <p style = {inputLabel}>Phone Nubmer: </p>
+              <p style = {inputLabel}>Phone Number: </p>
               <input style = {inputStyle} type="tel" id="number" name="number" placeholder='Phone Number' required/><br></br>
-              <p style = {inputLabel}>Mesagge for Michael: </p>
+              <p style = {inputLabel}>Message for Michael: </p>
               <input style = {inputStyle} type="text" id="msg" name="msg" placeholder='Message for Michael' /><br></br>
               <input style = {buttonStyle} type="submit" value="Submit" />
               <input style = {buttonStyle} type="submit" value="Unsubscribe from Email List" />

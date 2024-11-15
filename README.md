@@ -48,6 +48,8 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 | Justin K. | 11/12/24 | 2hr | Git Setup & Work on Sprint 3 |
 | Taylor B. | 11/12/24 | 15min | Git Setup |
 | Justin K. | 11/13/24 | 1hr | Work on Sprint 3 |
+| Taylor B. | 11/14/24 | 3hr | Work on Sprint 3 |
+| Justin K. | 11/14/24 | 2hr | Work on Sprint 3 |
 
 # Client Details<a name="client-details"></a>
 ### Client Discussion:
@@ -81,9 +83,9 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 ### Website Development:
 | Date Added | Details | Done? | Date Finished |
 |----------|----------|----------|----------|
-| 10/14/24 | Home Page | No | --- |
-| 10/14/24 | Our Produce | No | --- |
-| 10/14/24 | What is CSA | No | --- |
+| 10/14/24 | Home Page | Yes | 11/14/2024 |
+| 10/14/24 | Our Produce | Yes | 11/14/2024 |
+| 10/14/24 | What is CSA | Yes | 11/14/2024 |
 | 10/14/24 | Join Us | No | --- |
 | --- | --- | --- | --- |
 

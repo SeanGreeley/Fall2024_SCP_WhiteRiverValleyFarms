@@ -30,8 +30,9 @@ function WhatIsACSA() {
     backgroundColor: colors.ivory,
   };
     return (
-        <div id='root' className="App" styles={{backgroundColor: colors.ivory}}>
+        <div id='root' className="App" style={{backgroundColor: colors.ivory}}>
         <Header/>
+        <div style={{marginTop: '20vh'}}>
         <h1 style={headerStyles}>{allText['csa-info'].header}</h1>
           <div style={textboxStyles}>
           <p style={paragraphStyles}>{allText['csa-info']['body-1']}</p>
@@ -41,6 +42,7 @@ function WhatIsACSA() {
           <p style={paragraphStyles}>{allText['csa-info']['body-5']}</p>
           </div>
           <Footer/>
+          </div>
         </div>
     );
   }

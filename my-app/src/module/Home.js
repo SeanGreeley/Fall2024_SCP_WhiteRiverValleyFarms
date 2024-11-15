@@ -11,7 +11,6 @@ function Home() {
     fontSize: '24px',
     backgroundColor: colors.ivory,
     padding: '1em',
-    width: '50vw',
     minWidth: '300px',
     fontFamily: 'Itim'
   };
@@ -31,19 +30,24 @@ function Home() {
   };
   const divStyles = {
     backgroundColor: colors.ivory,
-    display:'flex',
-    flexDirection:'row'
+    display:'grid',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))',
+    width: '90%',
+    alignItems: 'center',
+    paddingTop: '20vh'
   };
   return (
-    <div id='root' className="App">
+    <div id='root' className="App" style={{backgroundColor:colors.ivory}}>
       <Header/>
-      <div id='content' style={divStyles}>
-        <div id='textbox' style={textboxStyles}>
-          <h1 style={headerStyles}>{allText.home.header}</h1>
-          <p style={paragraphStyles}>{allText.home['body-1']}</p>
-          <p style={paragraphStyles}>{allText.home['body-2']}</p>
+      <div style={{display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column'}}>
+        <div id='content' style={divStyles}>
+          <img src={HomeScreen} style={{width:'90%',minWidth:'350px', margin: '2em'}} alt="Farm image."/>
+          <div id='textbox' style={textboxStyles}>
+            <h1 style={headerStyles}>{allText.home.header}</h1>
+            <p style={paragraphStyles}>{allText.home['body-1']}</p>
+            <p style={paragraphStyles}>{allText.home['body-2']}</p>
+          </div>
         </div>
-        <img src={HomeScreen} style={{width:'40vw',height:'30vw', margin: '2em'}} alt="Farm image."/>
       </div>
       <Footer/>
     </div>

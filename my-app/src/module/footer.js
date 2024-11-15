@@ -7,7 +7,8 @@ function Footer() {
         backgroundColor: colors.darkGreen,
         padding: '1em',
         fontFamily: 'Itim',
-        fontSize: '3vh'
+        fontSize: '3vh',
+        marginTop: '5vh'
     };
     return (
         <div>

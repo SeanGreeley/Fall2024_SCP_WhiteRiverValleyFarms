@@ -7,6 +7,7 @@ function JoinUs() {
   const headerStyles = {
     color: colors.orange,
     backgroundColor: colors.ivory,
+    marginLeft: '5%',
     padding: '1em',
     fontSize: '6vh',
     fontFamily: 'Elsie Swash Caps'
@@ -16,6 +17,7 @@ function JoinUs() {
     textAlign: 'left',
     fontSize: '24px',
     backgroundColor: colors.ivory,
+    marginLeft: '5%',
     padding: '1em',
     width: '50vw',
     minWidth: '300px',
@@ -23,7 +25,7 @@ function JoinUs() {
   };
   const infoStyles = {
     color: colors.orange,
-    paddingLeft: "30px",
+    marginLeft: '10%',
     textAlign: 'left',
     fontSize: '24px',
     width: '50vw',
@@ -31,19 +33,18 @@ function JoinUs() {
     fontFamily: 'Itim'
   };
   const form = {
-    marginTop: "3%",
-    marginRight: "8%",
+    marginTop: "1%",
+    marginRight: "9%",
     backgroundColor: colors.ivory,
     position:"fixed",
     border: `3px solid ${colors.orange}`,
     right:"0",
     width: "20%",
     borderRadius: "10px", /* Add rounded corners */
-    boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.2)", 
+    boxShadow: "5px 7px 3px rgba(0, 0, 0, 0.2)", 
     padding: "20px",
     gridColumn: "2",
     flexGrow: "2",
-    gridTemplateColumns: "1fr auto",
     gap: "20px"
   };
   const textStyle = {
@@ -60,21 +61,37 @@ function JoinUs() {
     gap: "20px"
   };
   const inputLabel = {
-    paddingLeft: "13%",
+    paddingLeft: "10%",
+    paddingBottom: "1%",
     gridColumn: "1",
     //display: "inline-block",
-    width: "100px",
+    width: "200px",
     textAlign: "left"
   };
   const inputStyle = {
-    marginBottom: "15px",
+    borderRadius: "5px", 
+    marginBottom: "25px",
     gridColumn: "2",
     padding: "10px",
-    paddingRight: "100px",
+    paddingRight: "35%",
     textAlign: "left"    
   };
+  const inputMessageStyle = {
+    borderRadius: "5px", 
+    paddingBottom: "25%",
+    width: "78%",
+    gridColumn: "2",
+    padding: "10px",
+    textAlign: "left"  
+  };
   const buttonStyle = {
-    padding: "7px",  
+    boxShadow: "3px 4px 4px rgba(0, 0, 0, 0.2)", 
+    margin: '20px',
+    fontSize: '3vh',
+    color: colors.darkGreen,
+    width: '70%',
+    padding: "5px",  
+    backgroundColor: colors.lightGreen
   };
   const spacer = {
     margin: "20px",
@@ -111,10 +128,12 @@ function JoinUs() {
               <input style = {inputStyle} type="text" id="lname" name="lname" placeholder='Last Name' required/><br></br>
               <p style = {inputLabel}>Phone Nubmer: </p>
               <input style = {inputStyle} type="tel" id="number" name="number" placeholder='Phone Number' required/><br></br>
-              <p style = {inputLabel}>Mesagge for Michael: </p>
-              <input style = {inputStyle} type="text" id="msg" name="msg" placeholder='Message for Michael' /><br></br>
+              <p style = {inputLabel}>Any aditional comments or questions? </p>
+              <input style = {inputMessageStyle} type="text" id="msg" name="msg" placeholder='Message for Michael' /><br></br>
               <input style = {buttonStyle} type="submit" value="Submit" />
+              {/*
               <input style = {buttonStyle} type="submit" value="Unsubscribe from Email List" />
+              */}
             </div>
           </div>
         </div>

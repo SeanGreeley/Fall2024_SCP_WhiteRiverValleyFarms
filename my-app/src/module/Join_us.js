@@ -129,13 +129,8 @@ function JoinUs() {
               <input style = {inputStyle} type="text" id="lname" name="lname" placeholder='Last Name' required/><br></br>
               <p style = {inputLabel}>Phone Number: </p>
               <input style = {inputStyle} type="tel" id="number" name="number" placeholder='Phone Number' required/><br></br>
-<<<<<<< HEAD
               <p style = {inputLabel}>Any aditional comments or questions? </p>
               <input style = {inputMessageStyle} type="text" id="msg" name="msg" placeholder='Message for Michael' /><br></br>
-=======
-              <p style = {inputLabel}>Message for Michael: </p>
-              <input style = {inputStyle} type="text" id="msg" name="msg" placeholder='Message for Michael' /><br></br>
->>>>>>> 820d627405786c9421fcafb47324b8cc39026c58
               <input style = {buttonStyle} type="submit" value="Submit" />
               {/*
               <input style = {buttonStyle} type="submit" value="Unsubscribe from Email List" />

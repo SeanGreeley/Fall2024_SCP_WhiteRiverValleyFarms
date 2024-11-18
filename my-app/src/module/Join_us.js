@@ -2,8 +2,24 @@ import allText from '../textElements.json';
 import Header from './header';
 import Footer from './footer';
 import colors from '../colors.json';
+import React from 'react';
+import {useLayoutEffect, useState} from 'react';
+
+function useWindowSize() {
+  const [size, setSize] = useState([0, 0]);
+  useLayoutEffect(() => {
+    function updateSize() {
+      setSize([window.innerWidth, window.innerHeight]);
+    }
+    window.addEventListener('resize', updateSize);
+    updateSize();
+    return () => window.removeEventListener('resize', updateSize);
+  }, []);
+  return size;
+}
 
 function JoinUs() {
+  const [winWidth, winHeight] = useWindowSize();
   const headerStyles = {
     color: colors.orange,
     backgroundColor: colors.ivory,
@@ -45,7 +61,20 @@ function JoinUs() {
     padding: "20px",
     gridColumn: "2",
     flexGrow: "2",
-    gap: "20px"
+    gap: "20px",
+    fontFamily: 'Itim'
+  };
+  const mobileForm = {
+    marginTop: "1%",
+    backgroundColor: colors.ivory,
+    border: `3px solid ${colors.orange}`,
+    width: "80%",
+    marginLeft:'7%',
+    borderRadius: "10px", /* Add rounded corners */
+    boxShadow: "5px 7px 3px rgba(0, 0, 0, 0.2)", 
+    padding: "20px",
+    gap: "20px",
+    fontFamily: 'Itim'
   };
   const textStyle = {
     gridColumn: "1",
@@ -119,7 +148,7 @@ function JoinUs() {
             <p style = {infoStyles}>{allText['join-us'].location}</p>
             <p style = {paragraphStyles}>{allText['join-us']['form-opening']}</p>
           </div>
-          <div style = {form}>
+          {winWidth > winHeight && <div style = {form}>
             <div style = {spacer}>
               <p style = {inputLabel}>Email: </p>
               <input style = {inputStyle} type="email" id="email" name="email" placeholder='Email' required/><br></br>
@@ -136,8 +165,26 @@ function JoinUs() {
               <input style = {buttonStyle} type="submit" value="Unsubscribe from Email List" />
               */}
             </div>
-          </div>
+          </div>}
         </div>
+        {winWidth <= winHeight && <div style = {mobileForm}>
+            <div style = {spacer}>
+              <p style = {inputLabel}>Email: </p>
+              <input style = {inputStyle} type="email" id="email" name="email" placeholder='Email' required/><br></br>
+              <p style = {inputLabel}>First Name: </p>
+              <input style = {inputStyle} type="text" id="fname" name="fname" placeholder='First Name' required /><br></br>
+              <p style = {inputLabel}>Last Name: </p>
+              <input style = {inputStyle} type="text" id="lname" name="lname" placeholder='Last Name' required/><br></br>
+              <p style = {inputLabel}>Phone Number: </p>
+              <input style = {inputStyle} type="tel" id="number" name="number" placeholder='Phone Number' required/><br></br>
+              <p style = {inputLabel}>Any aditional comments or questions? </p>
+              <input style = {inputMessageStyle} type="text" id="msg" name="msg" placeholder='Message for Michael' /><br></br>
+              <input style = {buttonStyle} type="submit" value="Submit" />
+              {/*
+              <input style = {buttonStyle} type="submit" value="Unsubscribe from Email List" />
+              */}
+            </div>
+          </div>}
         <Footer/>
       </div>
     );

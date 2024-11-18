@@ -1,5 +1,5 @@
 import allText from '../textElements.json';
-import colors from '../colors.json'
+import colors from '../colors.json';
 import Logo from '../Images/Logo_Edit_2.png';
 
 function Footer() {
@@ -21,7 +21,7 @@ function Footer() {
     return (
         <div>
             <p style={styles}>{allText.footer}</p>
-            <img src={Logo} style={imgStyles} alt={p.alt} title={p.alt}/>
+            <img src={Logo} style={imgStyles} alt={"This is the logo for the White River Valley Farms organization."} title={"Logo"}/>
         </div>
     );
 }

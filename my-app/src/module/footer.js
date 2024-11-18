@@ -12,16 +12,16 @@ function Footer() {
         marginTop: '5vh'
     };
     const imgStyles ={
-      width: '200px', 
+      width: '400px', 
       height: '200px', 
       objectFit: 'cover', 
       padding: '10px',
-      backgroundColor: colors.ivory
     };
     return (
         <div>
-            <p style={styles}>{allText.footer}</p>
-            <img src={Logo} style={imgStyles} alt={"This is the logo for the White River Valley Farms organization."} title={"Logo"}/>
+            <p style={styles}>{allText.footer}
+                <img src={Logo} style={imgStyles} alt={"This is the logo for the White River Valley Farms organization."} title={"Logo"}/>
+            </p>
         </div>
     );
 }

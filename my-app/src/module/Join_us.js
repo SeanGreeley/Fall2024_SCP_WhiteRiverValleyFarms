@@ -35,7 +35,7 @@ function JoinUs() {
     backgroundColor: colors.ivory,
     marginLeft: '5%',
     padding: '2vh',
-    width: '50vw',
+    width: '90%',
     minWidth: '300px',
     fontFamily: 'Itim'
   };
@@ -44,7 +44,6 @@ function JoinUs() {
     marginLeft: '10%',
     textAlign: 'left',
     fontSize: '24px',
-    width: '50vw',
     backgroundColor: colors.ivory,
     fontFamily: 'Itim'
   };
@@ -79,17 +78,24 @@ function JoinUs() {
   };
   const textStyle = {
     gridColumn: "1",
-    width: "60%",
     textAlign: "left",
-    padding: "50px",
+    padding: "2vh",
   };
   const container = {
     backgroundColor: colors.ivory,
     fontFamily: 'Itim',
     display: "grid",
-    gridTemplateColumns: "1fr auto", /* Adjust the ratio as needed */
+    gridTemplateColumns: "66% auto", /* Adjust the ratio as needed */
     gap: "20px",
     paddingTop: '20vh'
+  };
+  const containerMobile = {
+    backgroundColor: colors.ivory,
+    fontFamily: 'Itim',
+    display: "grid",
+    gridTemplateColumns: "100%", /* Adjust the ratio as needed */
+    gap: "20px",
+    paddingTop: '25vh'
   };
   const inputLabel = {
     paddingBottom: "1%",
@@ -131,7 +137,7 @@ function JoinUs() {
     return (
         <div id='root' className="App" style={{backgroundColor:colors.ivory}}>
         <Header/>
-        <div style = {container}>
+        <div style = {winWidth > winHeight*1.5 ? container : containerMobile}>
           <div style = {textStyle}>
             <h2 style = {headerStyles}>{allText['join-us'].header}</h2>
             <p style = {paragraphStyles}>{allText['join-us'].opening}</p>

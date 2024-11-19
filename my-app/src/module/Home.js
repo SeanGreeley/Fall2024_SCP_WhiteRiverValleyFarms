@@ -17,7 +17,7 @@ function Home() {
   const headerStyles = {
     color: colors.orange,
     backgroundColor: colors.ivory,
-    padding: '1em',
+    padding: '2vh',
     fontSize: '6vh',
     fontFamily: 'Elsie Swash Caps'
   };
@@ -34,7 +34,7 @@ function Home() {
     gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))',
     width: '90%',
     alignItems: 'center',
-    paddingTop: '20vh'
+    paddingTop: '25vh'
   };
   return (
     <div id='root' className="App" style={{backgroundColor:colors.ivory}}>

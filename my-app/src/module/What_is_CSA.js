@@ -18,7 +18,7 @@ function WhatIsACSA() {
   const headerStyles = {
     color: colors.orange,
     backgroundColor: colors.ivory,
-    padding: '1em',
+    padding: '2vh',
     fontFamily: 'Elsie Swash Caps',
     fontSize: '6vh'
   };
@@ -32,7 +32,7 @@ function WhatIsACSA() {
     return (
         <div id='root' className="App" style={{backgroundColor: colors.ivory}}>
         <Header/>
-        <div style={{marginTop: '20vh'}}>
+        <div style={{paddingTop: '25vh',backgroundColor: colors.ivory}}>
         <h1 style={headerStyles}>{allText['csa-info'].header}</h1>
           <div style={textboxStyles}>
           <p style={paragraphStyles}>{allText['csa-info']['body-1']}</p>

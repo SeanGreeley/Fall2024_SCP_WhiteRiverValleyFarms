@@ -5,23 +5,19 @@ import Logo from '../Images/Logo_Edit_2.png';
 function Footer() {
     const styles = {
         color: colors.ivory,
-        backgroundColor: colors.darkGreen,
-        padding: '1em',
+        padding: '2vh',
         fontFamily: 'Itim',
         fontSize: '3vh',
-        marginTop: '5vh'
     };
     const imgStyles ={
       width: '400px', 
       height: '200px', 
-      objectFit: 'cover', 
-      padding: '10px',
+      objectFit: 'cover'
     };
     return (
-        <div>
-            <p style={styles}>{allText.footer}
-                <img src={Logo} style={imgStyles} alt={"This is the logo for the White River Valley Farms organization."} title={"Logo"}/>
-            </p>
+        <div style={{backgroundColor: colors.darkGreen,marginTop: '5vh'}}>
+            <img src={Logo} style={imgStyles} alt={"This is the logo for the White River Valley Farms organization."} title={"Logo"}/>
+            <p style={styles}>{allText.footer}</p>
         </div>
     );
 }

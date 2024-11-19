@@ -24,7 +24,7 @@ function JoinUs() {
     color: colors.orange,
     backgroundColor: colors.ivory,
     marginLeft: '5%',
-    padding: '1em',
+    padding: '2vh',
     fontSize: '6vh',
     fontFamily: 'Elsie Swash Caps'
   };
@@ -34,7 +34,7 @@ function JoinUs() {
     fontSize: '24px',
     backgroundColor: colors.ivory,
     marginLeft: '5%',
-    padding: '1em',
+    padding: '2vh',
     width: '50vw',
     minWidth: '300px',
     fontFamily: 'Itim'
@@ -49,16 +49,17 @@ function JoinUs() {
     fontFamily: 'Itim'
   };
   const form = {
-    marginTop: "1%",
-    marginRight: "9%",
+    marginRight: "5%",
+    marginTop: '5vh',
     backgroundColor: colors.ivory,
     position:"fixed",
     border: `3px solid ${colors.orange}`,
     right:"0",
-    width: "20%",
+    width: "25%",
+    minWidth: '200px',
     borderRadius: "10px", /* Add rounded corners */
     boxShadow: "5px 7px 3px rgba(0, 0, 0, 0.2)", 
-    padding: "20px",
+    padding: "10px",
     gridColumn: "2",
     flexGrow: "2",
     gap: "20px",
@@ -78,7 +79,7 @@ function JoinUs() {
   };
   const textStyle = {
     gridColumn: "1",
-    width: "70%",
+    width: "60%",
     textAlign: "left",
     padding: "50px",
   };
@@ -91,25 +92,25 @@ function JoinUs() {
     paddingTop: '20vh'
   };
   const inputLabel = {
-    paddingLeft: "10%",
     paddingBottom: "1%",
     gridColumn: "1",
     //display: "inline-block",
-    width: "200px",
-    textAlign: "left"
+    width: "20%",
+    textAlign: "left",
+    whiteSpace: 'nowrap'
   };
   const inputStyle = {
     borderRadius: "5px", 
-    marginBottom: "25px",
+    marginBottom: "15px",
     gridColumn: "2",
     padding: "10px",
-    paddingRight: "35%",
+    width: '90%',
     textAlign: "left"    
   };
   const inputMessageStyle = {
     borderRadius: "5px", 
     paddingBottom: "25%",
-    width: "78%",
+    width: "90%",
     gridColumn: "2",
     padding: "10px",
     textAlign: "left"  
@@ -148,7 +149,7 @@ function JoinUs() {
             <p style = {infoStyles}>{allText['join-us'].location}</p>
             <p style = {paragraphStyles}>{allText['join-us']['form-opening']}</p>
           </div>
-          {winWidth > winHeight && <div style = {form}>
+          {winWidth > winHeight*1.5 && <div style = {form}>
             <div style = {spacer}>
               <p style = {inputLabel}>Email: </p>
               <input style = {inputStyle} type="email" id="email" name="email" placeholder='Email' required/><br></br>
@@ -158,7 +159,7 @@ function JoinUs() {
               <input style = {inputStyle} type="text" id="lname" name="lname" placeholder='Last Name' required/><br></br>
               <p style = {inputLabel}>Phone Number: </p>
               <input style = {inputStyle} type="tel" id="number" name="number" placeholder='Phone Number' required/><br></br>
-              <p style = {inputLabel}>Any aditional comments or questions? </p>
+              <p style = {inputLabel}>Any questions? </p>
               <input style = {inputMessageStyle} type="text" id="msg" name="msg" placeholder='Message for Michael' /><br></br>
               <input style = {buttonStyle} type="submit" value="Submit" />
               {/*
@@ -167,7 +168,7 @@ function JoinUs() {
             </div>
           </div>}
         </div>
-        {winWidth <= winHeight && <div style = {mobileForm}>
+        {winWidth <= winHeight*1.5 && <div style = {mobileForm}>
             <div style = {spacer}>
               <p style = {inputLabel}>Email: </p>
               <input style = {inputStyle} type="email" id="email" name="email" placeholder='Email' required/><br></br>
@@ -177,7 +178,7 @@ function JoinUs() {
               <input style = {inputStyle} type="text" id="lname" name="lname" placeholder='Last Name' required/><br></br>
               <p style = {inputLabel}>Phone Number: </p>
               <input style = {inputStyle} type="tel" id="number" name="number" placeholder='Phone Number' required/><br></br>
-              <p style = {inputLabel}>Any aditional comments or questions? </p>
+              <p style = {inputLabel}>Any questions? </p>
               <input style = {inputMessageStyle} type="text" id="msg" name="msg" placeholder='Message for Michael' /><br></br>
               <input style = {buttonStyle} type="submit" value="Submit" />
               {/*

@@ -4,15 +4,18 @@ import colors from '../colors.json'
 function NavBar() {
     const barStyles = {
         width: '100%',
-        padding: '0.5em',
-        backgroundColor: colors.darkGreen
+        height: '6vh',
+        backgroundColor: colors.darkGreen,
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
     };
     const linkStyles = {
         color: colors.ivory,
-        backgroundColor: colors.darkGreen,
+        //backgroundColor: colors.darkGreen,
         fontFamily: 'Itim',
-        fontSize: '3vh',
-        padding: '0.25em 1em'
+        fontSize: 'min(3vh,3vw)',
+        padding: '0vh 2vw'
     }
     return (
         <nav style={barStyles}>

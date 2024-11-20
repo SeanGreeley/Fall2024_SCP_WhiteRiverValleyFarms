@@ -8,7 +8,7 @@ function WhatIsACSA() {
   const paragraphStyles = {
     color: colors.charcoal,
     textAlign: 'left',
-    fontSize: '24px',
+    fontSize: '4vh',
     backgroundColor: colors.ivory,
     padding: '1em',
     width: '50vw',

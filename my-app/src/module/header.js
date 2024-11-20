@@ -7,13 +7,14 @@ function Header() {
         position: 'fixed',
         top: '0',
         width: '100%',
-        height: '15vh'
+        height: '13vh'
     }
     const textStyles = {
         color: colors.charcoal,
         backgroundColor: colors.lightGreen,
-        padding: '1em',
-        fontFamily: 'Jacques Francois Shadow'
+        padding: '4vh',
+        fontFamily: 'Jacques Francois Shadow',
+        fontSize: 'min(5vh,5vw)'
     };
     return (
         <div style = {barStyles}>

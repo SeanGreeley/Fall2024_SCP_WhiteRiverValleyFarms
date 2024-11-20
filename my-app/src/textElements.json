@@ -30,6 +30,24 @@
         "alt": "Two bright red tomatoes being held in front of a tomato plant.",
         "desc": "Available from X - Y",
         "enabled": true
+      },
+      {
+        "name": "Carrots",
+        "alt": "Two bright red tomatoes being held in front of a tomato plant.",
+        "desc": "Available from X - Y",
+        "enabled": true
+      },
+      {
+        "name": "Peppers",
+        "alt": "Two bright red tomatoes being held in front of a tomato plant.",
+        "desc": "Available from X - Y",
+        "enabled": true
+      },
+      {
+        "name": "Squash",
+        "alt": "Two bright red tomatoes being held in front of a tomato plant.",
+        "desc": "Available from X - Y",
+        "enabled": true
       }]
   },
   "csa-info": {

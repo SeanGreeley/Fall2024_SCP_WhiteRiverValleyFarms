@@ -10,8 +10,7 @@ function Footer() {
         fontSize: '3vh',
     };
     const imgStyles ={
-      width: '400px', 
-      height: '200px', 
+      width: 'min(40vw,50vh)',  
       objectFit: 'cover'
     };
     return (

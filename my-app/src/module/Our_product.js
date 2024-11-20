@@ -3,6 +3,9 @@ import Corn from '../Images/corn.png';
 import Garlic from '../Images/garlic.png'
 import Peas from '../Images/peas.png'
 import Tomato from '../Images/TomatoPlant2.png'
+import Carrot from '../Images/carrot.png'
+import Peppers from '../Images/peppers.png'
+import Squash from '../Images/squash.png'
 import DefaultImage from '../Images/cropRow.png'
 import allText from '../textElements.json';
 import Header from './header';
@@ -10,18 +13,18 @@ import Footer from './footer';
 import colors from '../colors.json'
 
 function OurProduct() {
-  const allImages = [Corn, Garlic, Peas, Tomato, DefaultImage];
+  const allImages = [Corn, Garlic, Peas, Tomato, Carrot, Peppers, Squash, DefaultImage];
   const paragraphStyles = {
     color: colors.charcoal,
     fontSize: '3vh',
     backgroundColor: colors.ivory,
-    padding: '0.15em',
+    padding: '0.5vh',
     fontFamily: 'Itim'
   };
   const headerStyles = {
     color: colors.orange,
     backgroundColor: colors.ivory,
-    padding: '0.15em',
+    padding: '0.5vh',
     fontSize: '4vh',
     fontFamily: 'Elsie Swash Caps'
   };
@@ -35,8 +38,8 @@ function OurProduct() {
   const gridStyles = {
     paddingTop:'25vh',
     display: 'grid',
-    width: '60%',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))'
+    width: '70%',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(275px, 1fr))'
   }
   return (
     <div id='root' className="App" style={{backgroundColor:colors.ivory}}>

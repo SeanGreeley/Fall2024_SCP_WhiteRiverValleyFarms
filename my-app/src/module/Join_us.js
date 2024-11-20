@@ -31,7 +31,7 @@ function JoinUs() {
   const paragraphStyles = {
     color: colors.charcoal,
     textAlign: 'left',
-    fontSize: '24px',
+    fontSize: '4vh',
     backgroundColor: colors.ivory,
     marginLeft: '5%',
     padding: '2vh',

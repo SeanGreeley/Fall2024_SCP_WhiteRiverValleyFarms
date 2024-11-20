@@ -50,6 +50,9 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 | Justin K. | 11/13/24 | 1hr | Work on Sprint 3 |
 | Taylor B. | 11/14/24 | 3hr | Work on Sprint 3 |
 | Justin K. | 11/14/24 | 2hr | Work on Sprint 3 |
+| Taylor B. | 11/18/24 | 1hr | Added Logo to Site |
+| ALL | 11/18/24 | 2hr | Worked on Join Us Page |
+| Justin K | 11/19/24 | 2hr | Work on Dynamic Scaling & Produce Page |
 
 # Client Details<a name="client-details"></a>
 ### Client Discussion:

@@ -14,7 +14,7 @@ function NavBar() {
         color: colors.ivory,
         //backgroundColor: colors.darkGreen,
         fontFamily: 'Itim',
-        fontSize: 'min(3vh,3vw)',
+        fontSize: 'min(3vh,4vw)',
         padding: '0vh 2vw'
     }
     return (

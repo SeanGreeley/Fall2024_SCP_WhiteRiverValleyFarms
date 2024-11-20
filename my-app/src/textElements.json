@@ -33,19 +33,19 @@
       },
       {
         "name": "Carrots",
-        "alt": "Two bright red tomatoes being held in front of a tomato plant.",
+        "alt": "A bunch of vibrant carrots alongside other fresh produce.",
         "desc": "Available from X - Y",
         "enabled": true
       },
       {
         "name": "Peppers",
-        "alt": "Two bright red tomatoes being held in front of a tomato plant.",
+        "alt": "Numerous peppers in paper bags sitting amongst other crops.",
         "desc": "Available from X - Y",
         "enabled": true
       },
       {
         "name": "Squash",
-        "alt": "Two bright red tomatoes being held in front of a tomato plant.",
+        "alt": "Squash and Zucchini sitting in a wooden crate.",
         "desc": "Available from X - Y",
         "enabled": true
       }]

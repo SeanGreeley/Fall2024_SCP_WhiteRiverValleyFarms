@@ -89,7 +89,7 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 | 10/14/24 | Home Page | Yes | 11/14/2024 |
 | 10/14/24 | Our Produce | Yes | 11/14/2024 |
 | 10/14/24 | What is CSA | Yes | 11/14/2024 |
-| 10/14/24 | Join Us | No | --- |
+| 10/14/24 | Join Us | Yes | 11/19/2024 |
 | --- | --- | --- | --- |
 
 # Description<a name="desc"></a>

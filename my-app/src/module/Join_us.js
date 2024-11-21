@@ -18,8 +18,13 @@ function useWindowSize() {
   return size;
 }
 
+
 function JoinUs() {
   const [winWidth, winHeight] = useWindowSize();
+  const [submitted, setSubmit] = useState(false);
+  function handleSubmit() {
+    setSubmit(true)
+  }
   const headerStyles = {
     color: colors.orange,
     backgroundColor: colors.ivory,
@@ -126,6 +131,7 @@ function JoinUs() {
     margin: '20px',
     fontSize: '3vh',
     color: colors.darkGreen,
+    fontFamily: 'Itim',
     width: '70%',
     padding: "5px",  
     backgroundColor: colors.lightGreen
@@ -134,6 +140,20 @@ function JoinUs() {
     margin: "20px",
     marginBottom: "0px"
   };
+  const submittedHeader = {
+    backgroundColor: colors.orange,
+    color: colors.ivory,
+    fontFamily: 'Elsie Swash Caps',
+    fontSize: '6vh',
+    padding: '3vh'
+  }
+  const submittedText = {
+    backgroundColor: colors.orange,
+    color: colors.ivory,
+    fontFamily: 'Itim',
+    fontSize: '4vh',
+    padding: '2vh'
+  }
     return (
         <div id='root' className="App" style={{backgroundColor:colors.ivory}}>
         <Header/>
@@ -156,7 +176,7 @@ function JoinUs() {
             <p style = {paragraphStyles}>{allText['join-us']['form-opening']}</p>
           </div>
           {winWidth > winHeight*1.5 && <div style = {form}>
-            <div style = {spacer}>
+            {submitted === false && <div style = {spacer}>
               <p style = {inputLabel}>Email: </p>
               <input style = {inputStyle} type="email" id="email" name="email" placeholder='Email' required/><br></br>
               <p style = {inputLabel}>First Name: </p>
@@ -167,15 +187,19 @@ function JoinUs() {
               <input style = {inputStyle} type="tel" id="number" name="number" placeholder='Phone Number' required/><br></br>
               <p style = {inputLabel}>Any questions? </p>
               <input style = {inputMessageStyle} type="text" id="msg" name="msg" placeholder='Message for Michael' /><br></br>
-              <input style = {buttonStyle} type="submit" value="Submit" />
+              <button style = {buttonStyle} type="submit" value="Submit" onClick={handleSubmit}>Submit</button>
               {/*
               <input style = {buttonStyle} type="submit" value="Unsubscribe from Email List" />
               */}
-            </div>
+            </div>}
+            {submitted && <div>
+              <p style={submittedHeader}>Thank you for reaching out!</p>
+              <p style={submittedText}>We'll get back to you shortly.</p>
+              </div>}
           </div>}
         </div>
         {winWidth <= winHeight*1.5 && <div style = {mobileForm}>
-            <div style = {spacer}>
+            {submitted === false && <div style = {spacer}>
               <p style = {inputLabel}>Email: </p>
               <input style = {inputStyle} type="email" id="email" name="email" placeholder='Email' required/><br></br>
               <p style = {inputLabel}>First Name: </p>
@@ -186,11 +210,15 @@ function JoinUs() {
               <input style = {inputStyle} type="tel" id="number" name="number" placeholder='Phone Number' required/><br></br>
               <p style = {inputLabel}>Any questions? </p>
               <input style = {inputMessageStyle} type="text" id="msg" name="msg" placeholder='Message for Michael' /><br></br>
-              <input style = {buttonStyle} type="submit" value="Submit" />
+              <button style = {buttonStyle} type="submit" value="Submit" onClick={handleSubmit}>Submit</button>
               {/*
               <input style = {buttonStyle} type="submit" value="Unsubscribe from Email List" />
               */}
-            </div>
+            </div>}
+            {submitted && <div>
+              <p style={submittedHeader}>Thank you for reaching out!</p>
+              <p style={submittedText}>We'll get back to you shortly.</p>
+              </div>}
           </div>}
         <Footer/>
       </div>

@@ -29,17 +29,18 @@ function OurProduct() {
     fontFamily: 'Elsie Swash Caps'
   };
   const imgStyles ={
-    width: '200px', 
-    height: '200px', 
+    width: '33vh', 
+    height: '33vh', 
     objectFit: 'cover', 
     padding: '10px',
+    borderRadius: '30px',
     backgroundColor: colors.ivory
   };
   const gridStyles = {
-    paddingTop:'25vh',
+    paddingTop:'22.5vh',
     display: 'grid',
-    width: '70%',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(275px, 1fr))'
+    width: '80%',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(44vh, 1fr))'
   }
   return (
     <div id='root' className="App" style={{backgroundColor:colors.ivory}}>

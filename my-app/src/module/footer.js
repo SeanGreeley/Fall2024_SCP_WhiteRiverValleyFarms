@@ -7,7 +7,7 @@ function Footer() {
         color: colors.ivory,
         padding: '2vh',
         fontFamily: 'Itim',
-        fontSize: '3vh',
+        fontSize: 'min(3vh,4vw)',
     };
     const imgStyles ={
       width: 'min(40vw,50vh)',  

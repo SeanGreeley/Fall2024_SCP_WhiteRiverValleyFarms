@@ -8,10 +8,10 @@ function Home() {
   const paragraphStyles = {
     color: colors.charcoal,
     textAlign: 'left',
-    fontSize: '24px',
+    fontSize: '3.5vh',
     backgroundColor: colors.ivory,
     padding: '1em',
-    minWidth: '300px',
+    minWidth: '250px',
     fontFamily: 'Itim'
   };
   const headerStyles = {
@@ -31,17 +31,17 @@ function Home() {
   const divStyles = {
     backgroundColor: colors.ivory,
     display:'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
     width: '90%',
     alignItems: 'center',
-    paddingTop: '25vh'
+    paddingTop: '20vh'
   };
   return (
     <div id='root' className="App" style={{backgroundColor:colors.ivory}}>
       <Header/>
       <div style={{display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column'}}>
         <div id='content' style={divStyles}>
-          <img src={HomeScreen} style={{width:'90%',minWidth:'350px', margin: '2em'}} alt="Farm image."/>
+          <img src={HomeScreen} style={{width:'95%',minWidth:'150px', margin: 'min(2vh,2vw)'}} alt="Farm image."/>
           <div id='textbox' style={textboxStyles}>
             <h1 style={headerStyles}>{allText.home.header}</h1>
             <p style={paragraphStyles}>{allText.home['body-1']}</p>

@@ -28,7 +28,6 @@ function JoinUs() {
   const headerStyles = {
     color: colors.orange,
     backgroundColor: colors.ivory,
-    marginLeft: '5%',
     padding: '2vh',
     fontSize: '6vh',
     fontFamily: 'Elsie Swash Caps'
@@ -36,19 +35,18 @@ function JoinUs() {
   const paragraphStyles = {
     color: colors.charcoal,
     textAlign: 'left',
-    fontSize: '4vh',
+    fontSize: '3.5vh',
     backgroundColor: colors.ivory,
-    marginLeft: '5%',
     padding: '2vh',
     width: '90%',
-    minWidth: '300px',
+    minWidth: '250px',
     fontFamily: 'Itim'
   };
   const infoStyles = {
     color: colors.orange,
     marginLeft: '10%',
     textAlign: 'left',
-    fontSize: '24px',
+    fontSize: '20px',
     backgroundColor: colors.ivory,
     fontFamily: 'Itim'
   };
@@ -60,24 +58,22 @@ function JoinUs() {
     border: `3px solid ${colors.orange}`,
     right:"0",
     width: "25%",
-    minWidth: '200px',
     borderRadius: "10px", /* Add rounded corners */
     boxShadow: "5px 7px 3px rgba(0, 0, 0, 0.2)", 
-    padding: "10px",
+    padding: "2vh",
     gridColumn: "2",
     flexGrow: "2",
-    gap: "20px",
+    gap: "3vh",
     fontFamily: 'Itim'
   };
   const mobileForm = {
-    marginTop: "1%",
     backgroundColor: colors.ivory,
     border: `3px solid ${colors.orange}`,
     width: "80%",
-    marginLeft:'7%',
+    marginLeft:'6%',
     borderRadius: "10px", /* Add rounded corners */
     boxShadow: "5px 7px 3px rgba(0, 0, 0, 0.2)", 
-    padding: "20px",
+    padding: "3vh 2vh",
     gap: "20px",
     fontFamily: 'Itim'
   };
@@ -100,35 +96,41 @@ function JoinUs() {
     display: "grid",
     gridTemplateColumns: "100%", /* Adjust the ratio as needed */
     gap: "20px",
-    paddingTop: '25vh'
+    paddingTop: '20vh'
   };
   const inputLabel = {
     paddingBottom: "1%",
     gridColumn: "1",
-    //display: "inline-block",
     width: "20%",
+    fontFamily: 'Itim',
+    fontSize: '2.5vh',
     textAlign: "left",
     whiteSpace: 'nowrap'
   };
   const inputStyle = {
     borderRadius: "5px", 
-    marginBottom: "15px",
+    marginBottom: "2vh",
     gridColumn: "2",
-    padding: "10px",
+    fontSize: '2.5vh',
+    fontFamily: 'Itim',
+    color: colors.charcoal,
+    padding: "0.5vh",
     width: '90%',
     textAlign: "left"    
   };
   const inputMessageStyle = {
     borderRadius: "5px", 
-    paddingBottom: "25%",
+    paddingBottom: "15%",
     width: "90%",
     gridColumn: "2",
-    padding: "10px",
+    fontSize: '2.5vh',
+    fontFamily: 'Itim',
+    padding: "0.5em",
     textAlign: "left"  
   };
   const buttonStyle = {
     boxShadow: "3px 4px 4px rgba(0, 0, 0, 0.2)", 
-    margin: '20px',
+    margin: '2vh',
     fontSize: '3vh',
     color: colors.darkGreen,
     fontFamily: 'Itim',
@@ -137,7 +139,7 @@ function JoinUs() {
     backgroundColor: colors.lightGreen
   };
   const spacer = {
-    margin: "20px",
+    margin: "0.5vh",
     marginBottom: "0px"
   };
   const submittedHeader = {

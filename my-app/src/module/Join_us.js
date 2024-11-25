@@ -46,7 +46,7 @@ function JoinUs() {
     color: colors.orange,
     marginLeft: '10%',
     textAlign: 'left',
-    fontSize: '20px',
+    fontSize: '3.5vh',
     backgroundColor: colors.ivory,
     fontFamily: 'Itim'
   };

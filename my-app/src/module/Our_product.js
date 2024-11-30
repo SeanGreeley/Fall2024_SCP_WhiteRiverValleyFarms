@@ -44,7 +44,7 @@ function OurProduct() {
   }
   return (
     <div id='root' className="App" style={{backgroundColor:colors.ivory}}>
-      <Header/>
+      <Header page="product"/>
       <div style={{display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column'}}>
       <div style={gridStyles}>{allText.produce.listings.map((p,idx) => p.enabled && (<div> 
           <img src={allImages[Math.min(idx,allImages.length-1)]} style={imgStyles} alt={p.alt} title={p.alt}/>

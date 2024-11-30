@@ -158,7 +158,7 @@ function JoinUs() {
   }
     return (
         <div id='root' className="App" style={{backgroundColor:colors.ivory}}>
-        <Header/>
+        <Header page="join"/>
         <div style = {winWidth > winHeight*1.5 ? container : containerMobile}>
           <div style = {textStyle}>
             <h2 style = {headerStyles}>{allText['join-us'].header}</h2>

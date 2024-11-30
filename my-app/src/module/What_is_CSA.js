@@ -31,7 +31,7 @@ function WhatIsACSA() {
   };
     return (
         <div id='root' className="App" style={{backgroundColor: colors.ivory}}>
-        <Header/>
+        <Header page="csa"/>
         <div style={{paddingTop: '22.5vh',backgroundColor: colors.ivory}}>
         <h1 style={headerStyles}>{allText['csa-info'].header}</h1>
           <div style={textboxStyles}>

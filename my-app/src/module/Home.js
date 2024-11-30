@@ -34,11 +34,11 @@ function Home() {
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
     width: '90%',
     alignItems: 'center',
-    paddingTop: '20vh'
+    paddingTop: '22.5vh'
   };
   return (
     <div id='root' className="App" style={{backgroundColor:colors.ivory}}>
-      <Header/>
+      <Header page="home"/>
       <div style={{display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column'}}>
         <div id='content' style={divStyles}>
           <img src={HomeScreen} style={{width:'95%',minWidth:'150px', margin: 'min(2vh,2vw)'}} alt="Farm image."/>

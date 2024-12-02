@@ -1,0 +1,76 @@
+{
+  "header": "White River Valley Farms",
+  "footer": "© Copyright White River Valley Farms LLC 2024",
+  "home": {
+      "header": "Welcome to White River Valley!",
+      "body-1": "White River Valley Farms is a humble Community Supported Agriculture (CSA) project led by Ozarks resident Michael Maniatis. After growing up in the northwestern United States and moving around the country as a young adult, Michael fell in love with the Ozarks and found himself wanting to give back to his new home. Inspired by the likes of Millsap Farms and fueled by a newfound appreciation for local agriculture, Michael founded White River Valley Farms to grow and share local, fresh produce.",
+      "body-2": "The mission of White River Valley Farms is simple: helping the Ozarks grow together. Nothing brings a community together quite like local agriculture. Our CSA wants to contribute to the Ozarks with quality produce and neighborly love."
+    },
+  "produce": {
+      "listings":  [{
+        "name": "Corn",
+        "alt": "A barrow full of ripe corn husks.",
+        "desc": "Available from X - Y",
+        "enabled": true
+      },
+      {
+        "name": "Garlic",
+        "alt": "A crate full of garlic knots.",
+        "desc": "Available from X - Y",
+        "enabled": true
+      },
+      {
+        "name": "Peas",
+        "alt": "A large pile of pea pods.",
+        "desc": "Available from X - Y",
+        "enabled": true
+      },
+      {
+        "name": "Tomatoes",
+        "alt": "Two bright red tomatoes being held in front of a tomato plant.",
+        "desc": "Available from X - Y",
+        "enabled": true
+      },
+      {
+        "name": "Carrots",
+        "alt": "A bunch of vibrant carrots alongside other fresh produce.",
+        "desc": "Available from X - Y",
+        "enabled": true
+      },
+      {
+        "name": "Peppers",
+        "alt": "Numerous peppers in paper bags sitting amongst other crops.",
+        "desc": "Available from X - Y",
+        "enabled": true
+      },
+      {
+        "name": "Squash",
+        "alt": "Squash and Zucchini sitting in a wooden crate.",
+        "desc": "Available from X - Y",
+        "enabled": true
+      }]
+  },
+  "csa-info": {
+    "header": "All About Community Supported Agriculture",
+    "body-1": "Community Supported Agriculture (CSA) is a community-focused group of people who wish to provide and/or enjoy fresh, local, seasonal food.",
+    "body-2": "Typically, CSA membership benefits the entire community through the proportionate sharing of crop yield. Crop sharing allows farmers to have stability during times of scarcity and members to receive more crops during times of abundance.",
+    "body-3": "Members are required to pick up their portion of the harvest at a designated time and place. Unclaimed shares usually get donated to a charity or food pantry. In the event a member can’t make it, they may let someone else pick up their share for them if necessary.",
+    "body-4": "For example, in the Ozarks, there is a flourishing CSA community. Between the bustling farmers markets in Springfield to the humble folks at Millsap Farms, there are plenty of ways for local residents to get their hands on fresh, organic produce and make a few friends along the way.",
+    "body-5": "Here at White River Valley Farms, we want to contribute toward a future where Ozarks residents have access to fresh produce grown by  good neighbors. With well-maintained cold storage and washing stations, all of our produce is handled with the love and care you’d expect from the Ozarks."
+  },
+  "join-us": {
+    "header": "Let's Grow Together",
+    "opening": "Want to join White River Valley Farms? Everything you need to know is right here.",
+    "body-1": "We, the farm, wish to provide you with fresh, local, seasonal food and you, the member, wish to receive a portion of our harvest. White River Valley Farms runs from MONTH to MONTH. Once members have been introduced to the farm location, they are responsible for picking up their share of produce every two weeks during the growing season. Members generally receive 2 pounds of produce in each share, depending on the progression of the growing season. For the sake of privacy, details about pickup will be discussed after we’ve established contact.",
+    "body-2": "The produce we offer throughout the season can be viewed on the Our Produce page. Please note that the availability of produce can fluctuate depending on the season. While we are not USDA certified, White River Valley Farms uses cold-storage and washing stations to ensure all produce is fresh and safe for consumption.",
+    "body-3": "By joining our CSA, you agree to share in the risk of crop failure and crop surplus. In the event that a small portion of crops fail, we will reimburse you with other produce. Larger issues during the growing season may make reimbursement impossible. Nevertheless, we promise to do our best to provide you with produce on a consistent basis. In times of abundance, your share of produce will be larger. Any produce you do not need will be donated to a local food pantry.",
+    "body-4": "If you are interested in receiving more information about White River Valley Farms and potentially becoming a member, please fill out the following form. We will get back to you as soon as possible. Membership fees are to be discussed once we have established contact. There is NO COST to sign up and receive a tour of our property. Membership fees fund the majority of operations at White River Valley Farms, such as purchasing seeds and maintaining equipment.",
+    "disclaimer": "NOTE: Submitting this form DOES NOT obligate you to become a member, it is solely for communication purposes. Any information you provide us with will not be shared with other parties.",
+    "form-header": "Help Us Communicate Further",
+    "contact-email": "whiterivervalleyfarms@gmail.com",
+    "phone-number": "123-456-7890",
+    "location": "Mountain View, MO",
+    "form-opening": "Once we get into contact with you, we'll be more than happy to provide you with our address so we can give you a tour of our property.",
+    "form-confirmation": "Thanks for signing up!"
+  }
+}

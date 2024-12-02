@@ -44,9 +44,9 @@ function JoinUs() {
   };
   const infoStyles = {
     color: colors.orange,
-    marginLeft: '10%',
+    marginLeft: '5%',
     textAlign: 'left',
-    fontSize: '3.5vh',
+    fontSize: 'min(3vh,5vw)',
     backgroundColor: colors.ivory,
     fontFamily: 'Itim'
   };

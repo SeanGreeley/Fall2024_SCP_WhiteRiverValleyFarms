@@ -29,8 +29,8 @@ function OurProduct() {
     fontFamily: 'Elsie Swash Caps'
   };
   const imgStyles ={
-    width: '33vh', 
-    height: '33vh', 
+    width: '25vh', 
+    height: '25vh', 
     objectFit: 'cover', 
     padding: '10px',
     borderRadius: '30px',
@@ -40,7 +40,7 @@ function OurProduct() {
     paddingTop:'22.5vh',
     display: 'grid',
     width: '80%',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(44vh, 1fr))'
+    gridTemplateColumns: 'repeat(auto-fit, minmax(30vh, 1fr))'
   }
   return (
     <div id='root' className="App" style={{backgroundColor:colors.ivory}}>

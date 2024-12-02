@@ -31,7 +31,7 @@ function Home() {
   const divStyles = {
     backgroundColor: colors.ivory,
     display:'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(60vh, 1fr))',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(min(60vh,90vw), 1fr))',
     width: '90%',
     alignItems: 'center',
     paddingTop: '22.5vh'

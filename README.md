@@ -12,6 +12,7 @@
      4. [Sprint3](#S3)
      5. [Sprint4](#S4)
           1.  [Idea List](#ideaList)
+          2.  [A Note on Server Hosting](#serverHost)
 5. [Team Charter](#charter)
 6. [User Stories](#userStories)
 7. [Risk Analysis](#riskAnalysis)
@@ -53,6 +54,7 @@ As part of our Fall 2024 Software Engineering project, we are designing a websit
 | Taylor B. | 11/18/24 | 1hr | Added Logo to Site |
 | ALL | 11/18/24 | 2hr | Worked on Join Us Page |
 | Justin K. | 11/19/24 | 2hr | Work on Dynamic Scaling & Produce Page |
+| Sean G. | 12/1/24 | -hr | Research, Setup, and prototype launch for Public Facing Website, MySQL setup for Site, and Backend Programming. |
 
 # Client Details<a name="client-details"></a>
 ### Client Discussion:
@@ -109,11 +111,15 @@ Sprint 3 will be when all the previously made pages, after they are reviewed and
 ## Sprint 4<a name="S4"></a>
 Sprint 4 is, as of current, the "Whatever else we need / want to do" section, along with being where we currently plan on working towards setting up web functionality and getting the site online for the client. This is left to the last sprint because as of current, the idea of publishing is outside of our current scope, as we wish to make sure all other sprint features work before planning shipping.
 This sprint will also contain ideas like specialized styling, back end support with setting up an email form for a mailing list system, and other ideas thought up and added to the table below.
-| Name | Idea | Details |
+
+| Name | Idea | Details |<a name="ideaList"></a>
 |----------|----------|----------|
-| Sean G. | Design a built-in admin console to allow client to edit and change items on the site in an easier way. |
+| Justin K. | Design a built-in admin console to allow client to edit and change items on the site in an easier way. | Developing systems within the code that allow for easy user access to change and control systemms, text, images, etc. |
 | Sean G. | Publishing site on hosting server | Learn how to host a webpage on a server, including getting a domain name, and a hosting site like AWS (Amazon Web Service). |
 | | | |
+
+###A Note on Server Hosting:<a name="serverHost"></a>
+While setting up a in-house computer or server to run Windows Server 2022, and IIS, for a simple locally hosted website is relatively simple and cheap, am issue is found when the idea is for the client to host the website. That being, my local server doesn't have the required guaranteed uptime and connections needed to run a official site for a client. In this, as part of Sprint 4, my mission was to look around and find how to host the website on a official cloud provider to guarantee any public user could access the website, and it would be up at all times for the client. With this, I have looked at different options, the most commonly considered being Github Pages, AWS, and Google Cloud. The main reason for these considerations came as finding the cheapest and most reliable website host, without locking the client into some form of paid contract without their approval. The issue with Github pages mainly comes that they expect static pages, and it to be tied to the user account. The issue that also follows, is that the client would only have access to the github, but no tools to actually access and change details on the website. The issue with AWS and Google, while larger and also having free plans, is the issue of them requiring a specific account be the one to create and manage the server, while also risking payment risks for the client, especially for a website that is meant to be put up and just exist. With this, I settled on attempting to simply set up a Github Pages server, with the main expectation for it to exist until a better solution can be found from talking to the client about their expectations, rather than risking the website costing money without an official plan set up by the client. The main challenge as well with this choice is going to be setting up a MySQL back end, as Github doesn't natively support that with their static pages.
 
 # Team Charter<a name="charter"></a>
 ## 1. Team Roles:

@@ -31,7 +31,7 @@ function Home() {
   const divStyles = {
     backgroundColor: colors.ivory,
     display:'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(60vh, 1fr))',
     width: '90%',
     alignItems: 'center',
     paddingTop: '22.5vh'
@@ -41,7 +41,7 @@ function Home() {
       <Header page="home"/>
       <div style={{display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column'}}>
         <div id='content' style={divStyles}>
-          <img src={HomeScreen} style={{width:'95%',minWidth:'150px', margin: 'min(2vh,2vw)'}} alt="Farm image."/>
+          <img src={HomeScreen} style={{width:'95%',minWidth:'150px', margin: 'min(2vh,2vw)', borderRadius: '30px'}} alt="Farm image."/>
           <div id='textbox' style={textboxStyles}>
             <h1 style={headerStyles}>{allText.home.header}</h1>
             <p style={paragraphStyles}>{allText.home['body-1']}</p>
